@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="arty_echo_server_system-imgFile" value=""/>
+	<item key="arty_echo_server_system-offSet" value=""/>
+	<item key="arty_echo_server_system-initFile" value=""/>
+	<item key="arty_echo_server_system-flashType" value="28f00am29ew-bpi-x16"/>
+	<item key="arty_echo_server_system-verifyFlash" value="false"/>
+	<item key="arty_echo_server_system-blankCheck" value="false"/>
+	<item key="arty_echo_server_system-device" value="Auto Detect"/>
+	<item key="arty_echo_server_system-target" value="Local"/>
+	<item key="programflash.hwplatform" value="arty_echo_server_system"/>
+</section>

@@ -1,0 +1,1068 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed May 22 08:15:32 2024
+# Process ID: 558092
+# Current directory: /home/deulamco/Documents/echo_server/echo_server.runs/system_axi_ethernetlite_0_0_synth_1
+# Command line: vivado -log system_axi_ethernetlite_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_axi_ethernetlite_0_0.tcl
+# Log file: /home/deulamco/Documents/echo_server/echo_server.runs/system_axi_ethernetlite_0_0_synth_1/system_axi_ethernetlite_0_0.vds
+# Journal file: /home/deulamco/Documents/echo_server/echo_server.runs/system_axi_ethernetlite_0_0_synth_1/vivado.jou
+# Running On: deulamco-4060M, OS: Linux, CPU Frequency: 4760.465 MHz, CPU Physical cores: 16, Host memory: 32793 MB
+#-----------------------------------------------------------
+source system_axi_ethernetlite_0_0.tcl -notrace
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_axi_ethernetlite_0_0
+Command: synth_design -top system_axi_ethernetlite_0_0 -part xc7a35ticsg324-1L -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Device 21-403] Loading part xc7a35ticsg324-1L
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 558357
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2067.719 ; gain = 402.746 ; free physical = 309 ; free virtual = 20353
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'system_axi_ethernetlite_0_0' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ip/system_axi_ethernetlite_0_0/synth/system_axi_ethernetlite_0_0.vhd:98]
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_SELECT_XPM bound to: 1 - type: integer 
+	Parameter C_INSTANCE bound to: axi_ethernetlite_inst - type: string 
+	Parameter C_S_AXI_ACLK_PERIOD_PS bound to: 12308 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 13 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXI_PROTOCOL bound to: AXI4LITE - type: string 
+	Parameter C_INCLUDE_MDIO bound to: 1 - type: integer 
+	Parameter C_INCLUDE_INTERNAL_LOOPBACK bound to: 0 - type: integer 
+	Parameter C_INCLUDE_GLOBAL_BUFFERS bound to: 1 - type: integer 
+	Parameter C_DUPLEX bound to: 1 - type: integer 
+	Parameter C_TX_PING_PONG bound to: 1 - type: integer 
+	Parameter C_RX_PING_PONG bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'axi_ethernetlite' declared at '/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:13295' bound to instance 'U0' of component 'axi_ethernetlite' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ip/system_axi_ethernetlite_0_0/synth/system_axi_ethernetlite_0_0.vhd:220]
+INFO: [Synth 8-638] synthesizing module 'axi_ethernetlite' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:13404]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:514]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d2' to cell 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:545]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d3' to cell 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:554]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4' to cell 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:564]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5' to cell 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:574]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6' to cell 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:584]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-3491] module 'IBUF' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:73631' bound to instance 'TX_IBUF_INST' of component 'IBUF' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:13790]
+INFO: [Synth 8-6157] synthesizing module 'IBUF' [/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:73631]
+INFO: [Synth 8-6155] done synthesizing module 'IBUF' (0#1) [/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:73631]
+INFO: [Synth 8-3491] module 'IBUF' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:73631' bound to instance 'RX_IBUF_INST' of component 'IBUF' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:13796]
+INFO: [Synth 8-3491] module 'BUFG' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1951' bound to instance 'CLOCK_BUFG_TX' of component 'BUFG' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:13804]
+INFO: [Synth 8-6157] synthesizing module 'BUFG' [/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1951]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG' (0#1) [/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1951]
+INFO: [Synth 8-3491] module 'BUFG' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:1951' bound to instance 'CLOCK_BUFG_RX' of component 'BUFG' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:13813]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync__parameterized0' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:514]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d2' to cell 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:545]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d3' to cell 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:554]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4' to cell 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:564]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5' to cell 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:574]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6' to cell 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:584]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync__parameterized0' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync__parameterized1' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:736]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:736]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:736]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:736]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d2' to cell 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:772]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d2' to cell 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:772]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d2' to cell 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:772]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d2' to cell 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:772]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d3' to cell 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:788]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d3' to cell 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:788]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d3' to cell 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:788]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d3' to cell 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:788]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d4' to cell 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:804]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d4' to cell 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:804]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d4' to cell 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:804]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d4' to cell 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:804]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5' to cell 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:821]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5' to cell 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:821]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5' to cell 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:821]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5' to cell 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:821]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6' to cell 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:837]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6' to cell 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:837]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6' to cell 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:837]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6' to cell 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:837]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync__parameterized1' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41005' bound to instance 'RX_FF_I' of component 'FDRE' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:13902]
+INFO: [Synth 8-6157] synthesizing module 'FDRE' [/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41005]
+INFO: [Synth 8-6155] done synthesizing module 'FDRE' (0#1) [/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41005]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41005' bound to instance 'TX_FF_I' of component 'FDRE' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:13910]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41005' bound to instance 'RX_FF_I' of component 'FDRE' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:13902]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41005' bound to instance 'TX_FF_I' of component 'FDRE' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:13910]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41005' bound to instance 'RX_FF_I' of component 'FDRE' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:13902]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41005' bound to instance 'TX_FF_I' of component 'FDRE' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:13910]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41005' bound to instance 'RX_FF_I' of component 'FDRE' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:13902]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41005' bound to instance 'TX_FF_I' of component 'FDRE' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:13910]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41005' bound to instance 'DVD_FF' of component 'FDRE' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:13929]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41005' bound to instance 'RER_FF' of component 'FDRE' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:13937]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41005' bound to instance 'TEN_FF' of component 'FDRE' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:13945]
+INFO: [Synth 8-638] synthesizing module 'xemac' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:10880]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:40992' bound to instance 'IP2INTC_IRPT_REG_I' of component 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:11058]
+INFO: [Synth 8-6157] synthesizing module 'FDR' [/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:40992]
+INFO: [Synth 8-6155] done synthesizing module 'FDR' (0#1) [/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:40992]
+INFO: [Synth 8-638] synthesizing module 'axi_ethernetlite_v3_0_28_emac' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:10340]
+INFO: [Synth 8-638] synthesizing module 'receive' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:8431]
+INFO: [Synth 8-638] synthesizing module 'rx_statemachine' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:4222]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:40992' bound to instance 'crcokdelay' of component 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:4345]
+INFO: [Synth 8-3491] module 'FDS' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41128' bound to instance 'state0a' of component 'FDS' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:4398]
+INFO: [Synth 8-6157] synthesizing module 'FDS' [/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41128]
+INFO: [Synth 8-6155] done synthesizing module 'FDS' (0#1) [/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41128]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:40992' bound to instance 'state1a' of component 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:4414]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:40992' bound to instance 'state2a' of component 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:4439]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:40992' bound to instance 'state3a' of component 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:4456]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:40992' bound to instance 'state4a' of component 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:4480]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:40992' bound to instance 'state17a' of component 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:4689]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:40992' bound to instance 'state18a' of component 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:4714]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:40992' bound to instance 'state20a' of component 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:4731]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:40992' bound to instance 'state21a' of component 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:4755]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:40992' bound to instance 'state22a' of component 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:4781]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:40992' bound to instance 'preamble' of component 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:5030]
+INFO: [Synth 8-256] done synthesizing module 'rx_statemachine' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:4222]
+INFO: [Synth 8-638] synthesizing module 'rx_intrfce' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:5240]
+INFO: [Synth 8-638] synthesizing module 'async_fifo_fg' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/1531/hdl/lib_fifo_v1_0_rfs.vhd:246]
+	Parameter FIFO_MEMORY_TYPE bound to: auto - type: string 
+	Parameter FIFO_WRITE_DEPTH bound to: 16 - type: integer 
+	Parameter RELATED_CLOCKS bound to: 0 - type: integer 
+	Parameter WRITE_DATA_WIDTH bound to: 6 - type: integer 
+	Parameter READ_MODE bound to: std - type: string 
+	Parameter FIFO_READ_LATENCY bound to: 1 - type: integer 
+	Parameter FULL_RESET_VALUE bound to: 1 - type: integer 
+	Parameter USE_ADV_FEATURES bound to: 1F1F - type: string 
+	Parameter READ_DATA_WIDTH bound to: 6 - type: integer 
+	Parameter CDC_SYNC_STAGES bound to: 2 - type: integer 
+	Parameter WR_DATA_COUNT_WIDTH bound to: 2 - type: integer 
+	Parameter PROG_FULL_THRESH bound to: 10 - type: integer 
+	Parameter RD_DATA_COUNT_WIDTH bound to: 2 - type: integer 
+	Parameter PROG_EMPTY_THRESH bound to: 10 - type: integer 
+	Parameter DOUT_RESET_VALUE bound to: 0 - type: string 
+	Parameter ECC_MODE bound to: no_ecc - type: string 
+	Parameter WAKEUP_TIME bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'xpm_fifo_async' declared at '/home/deulamco/AMD/Vivado/2023.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:2158' bound to instance 'xpm_fifo_async_inst' of component 'xpm_fifo_async' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/1531/hdl/lib_fifo_v1_0_rfs.vhd:1923]
+INFO: [Synth 8-6157] synthesizing module 'xpm_fifo_async' [/home/deulamco/AMD/Vivado/2023.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:2158]
+INFO: [Synth 8-6157] synthesizing module 'xpm_fifo_base' [/home/deulamco/AMD/Vivado/2023.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'xpm_counter_updn' [/home/deulamco/AMD/Vivado/2023.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1866]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_counter_updn' (0#1) [/home/deulamco/AMD/Vivado/2023.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1866]
+INFO: [Synth 8-6157] synthesizing module 'xpm_counter_updn__parameterized0' [/home/deulamco/AMD/Vivado/2023.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1866]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_counter_updn__parameterized0' (0#1) [/home/deulamco/AMD/Vivado/2023.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1866]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base' [/home/deulamco/AMD/Vivado/2023.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:54]
+INFO: [Synth 8-6059] Synth Info: [XPM_MEMORY 20-1] MEMORY_PRIMITIVE (0) instructs Vivado Synthesis to choose the memory primitive type. Depending on their values, other XPM_MEMORY parameters may preclude the choice of certain memory primitive types. Review XPM_MEMORY documentation and parameter values to understand any limitations, or set MEMORY_PRIMITIVE to a different value.   [/home/deulamco/AMD/Vivado/2023.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:506]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base' (0#1) [/home/deulamco/AMD/Vivado/2023.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:54]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_gray' [/home/deulamco/AMD/Vivado/2023.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:283]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_gray' (0#1) [/home/deulamco/AMD/Vivado/2023.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:283]
+INFO: [Synth 8-6157] synthesizing module 'xpm_fifo_reg_vec' [/home/deulamco/AMD/Vivado/2023.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1892]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_reg_vec' (0#1) [/home/deulamco/AMD/Vivado/2023.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1892]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_gray__parameterized0' [/home/deulamco/AMD/Vivado/2023.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:283]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_gray__parameterized0' (0#1) [/home/deulamco/AMD/Vivado/2023.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:283]
+INFO: [Synth 8-6157] synthesizing module 'xpm_fifo_reg_vec__parameterized0' [/home/deulamco/AMD/Vivado/2023.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1892]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_reg_vec__parameterized0' (0#1) [/home/deulamco/AMD/Vivado/2023.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1892]
+INFO: [Synth 8-6157] synthesizing module 'xpm_fifo_rst' [/home/deulamco/AMD/Vivado/2023.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1626]
+INFO: [Synth 8-6157] synthesizing module 'xpm_cdc_sync_rst' [/home/deulamco/AMD/Vivado/2023.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1059]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_cdc_sync_rst' (0#1) [/home/deulamco/AMD/Vivado/2023.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:1059]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_rst' (0#1) [/home/deulamco/AMD/Vivado/2023.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1626]
+INFO: [Synth 8-6157] synthesizing module 'xpm_fifo_reg_bit' [/home/deulamco/AMD/Vivado/2023.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1914]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_reg_bit' (0#1) [/home/deulamco/AMD/Vivado/2023.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1914]
+INFO: [Synth 8-6157] synthesizing module 'xpm_counter_updn__parameterized1' [/home/deulamco/AMD/Vivado/2023.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1866]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_counter_updn__parameterized1' (0#1) [/home/deulamco/AMD/Vivado/2023.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1866]
+INFO: [Synth 8-6157] synthesizing module 'xpm_counter_updn__parameterized2' [/home/deulamco/AMD/Vivado/2023.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1866]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_counter_updn__parameterized2' (0#1) [/home/deulamco/AMD/Vivado/2023.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:1866]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_base' (0#1) [/home/deulamco/AMD/Vivado/2023.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_fifo_async' (0#1) [/home/deulamco/AMD/Vivado/2023.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:2158]
+INFO: [Synth 8-256] done synthesizing module 'async_fifo_fg' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/1531/hdl/lib_fifo_v1_0_rfs.vhd:246]
+INFO: [Synth 8-256] done synthesizing module 'rx_intrfce' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:5240]
+INFO: [Synth 8-638] synthesizing module 'crcgenrx' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:6748]
+INFO: [Synth 8-256] done synthesizing module 'crcgenrx' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:6748]
+INFO: [Synth 8-256] done synthesizing module 'receive' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:8431]
+INFO: [Synth 8-638] synthesizing module 'transmit' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:7552]
+INFO: [Synth 8-638] synthesizing module 'crcgentx' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:6447]
+INFO: [Synth 8-638] synthesizing module 'crcnibshiftreg' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:1837]
+INFO: [Synth 8-256] done synthesizing module 'crcnibshiftreg' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:1837]
+INFO: [Synth 8-256] done synthesizing module 'crcgentx' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:6447]
+INFO: [Synth 8-638] synthesizing module 'tx_intrfce' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:3859]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:40992' bound to instance 'pipeIt' of component 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:3970]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync__parameterized2' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:514]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d2' to cell 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:545]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d3' to cell 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:554]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4' to cell 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:564]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5' to cell 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:574]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6' to cell 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:584]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync__parameterized2' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'tx_intrfce' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:3859]
+INFO: [Synth 8-638] synthesizing module 'mux_onehot_f' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:410]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:85127' bound to instance 'MUXCY_I' of component 'MUXCY' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:506]
+INFO: [Synth 8-6157] synthesizing module 'MUXCY' [/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:85127]
+INFO: [Synth 8-6155] done synthesizing module 'MUXCY' (0#1) [/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:85127]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:85127' bound to instance 'MUXCY_I' of component 'MUXCY' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:506]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:85127' bound to instance 'MUXCY_I' of component 'MUXCY' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:506]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:85127' bound to instance 'MUXCY_I' of component 'MUXCY' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:506]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:85127' bound to instance 'MUXCY_I' of component 'MUXCY' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:506]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:85127' bound to instance 'MUXCY_I' of component 'MUXCY' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:506]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:85127' bound to instance 'MUXCY_I' of component 'MUXCY' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:506]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:85127' bound to instance 'MUXCY_I' of component 'MUXCY' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:506]
+INFO: [Synth 8-256] done synthesizing module 'mux_onehot_f' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:410]
+INFO: [Synth 8-638] synthesizing module 'ld_arith_reg' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:118]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:85116' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:238]
+INFO: [Synth 8-6157] synthesizing module 'MULT_AND' [/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:85116]
+INFO: [Synth 8-6155] done synthesizing module 'MULT_AND' (0#1) [/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:85116]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:85127' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:248]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:139093' bound to instance 'XORCY_i1' of component 'XORCY' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:259]
+INFO: [Synth 8-6157] synthesizing module 'XORCY' [/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:139093]
+INFO: [Synth 8-6155] done synthesizing module 'XORCY' (0#1) [/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:139093]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41005' bound to instance 'FDRE_i1' of component 'FDRE' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:275]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:85116' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:238]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:85127' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:248]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:139093' bound to instance 'XORCY_i1' of component 'XORCY' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:259]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41005' bound to instance 'FDRE_i1' of component 'FDRE' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:275]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:85116' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:238]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:85127' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:248]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:139093' bound to instance 'XORCY_i1' of component 'XORCY' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:259]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41005' bound to instance 'FDRE_i1' of component 'FDRE' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:275]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:85116' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:238]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:85127' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:248]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:139093' bound to instance 'XORCY_i1' of component 'XORCY' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:259]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41005' bound to instance 'FDRE_i1' of component 'FDRE' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:275]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:85116' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:238]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:85127' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:248]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:139093' bound to instance 'XORCY_i1' of component 'XORCY' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:259]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41005' bound to instance 'FDRE_i1' of component 'FDRE' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:275]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:85116' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:238]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:85127' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:248]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:139093' bound to instance 'XORCY_i1' of component 'XORCY' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:259]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41005' bound to instance 'FDRE_i1' of component 'FDRE' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:275]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:85116' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:238]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:85127' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:248]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:139093' bound to instance 'XORCY_i1' of component 'XORCY' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:259]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41005' bound to instance 'FDRE_i1' of component 'FDRE' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:275]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:85116' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:238]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:85127' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:248]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:139093' bound to instance 'XORCY_i1' of component 'XORCY' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:259]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41005' bound to instance 'FDRE_i1' of component 'FDRE' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:275]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:85116' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:238]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:85127' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:248]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:139093' bound to instance 'XORCY_i1' of component 'XORCY' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:259]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41005' bound to instance 'FDRE_i1' of component 'FDRE' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:275]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:85116' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:238]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:85127' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:248]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:139093' bound to instance 'XORCY_i1' of component 'XORCY' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:259]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41005' bound to instance 'FDRE_i1' of component 'FDRE' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:275]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:85116' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:238]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:85127' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:248]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:139093' bound to instance 'XORCY_i1' of component 'XORCY' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:259]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41005' bound to instance 'FDRE_i1' of component 'FDRE' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:275]
+INFO: [Synth 8-3491] module 'MULT_AND' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:85116' bound to instance 'MULT_AND_i1' of component 'MULT_AND' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:238]
+INFO: [Synth 8-3491] module 'MUXCY' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:85127' bound to instance 'MUXCY_i1' of component 'MUXCY' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:248]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:139093' bound to instance 'XORCY_i1' of component 'XORCY' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:259]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41005' bound to instance 'FDRE_i1' of component 'FDRE' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:275]
+INFO: [Synth 8-256] done synthesizing module 'ld_arith_reg' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:118]
+INFO: [Synth 8-638] synthesizing module 'tx_statemachine' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:2365]
+INFO: [Synth 8-638] synthesizing module 'cntr5bit' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:2041]
+INFO: [Synth 8-256] done synthesizing module 'cntr5bit' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:2041]
+INFO: [Synth 8-3491] module 'FDS' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41128' bound to instance 'STATE0A' of component 'FDS' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:2694]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:40992' bound to instance 'STATE5A' of component 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:2726]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:40992' bound to instance 'STATE6A' of component 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:2741]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:40992' bound to instance 'STATE7A' of component 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:2759]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:40992' bound to instance 'STATE8A' of component 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:2777]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:40992' bound to instance 'STATE9A' of component 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:2794]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:40992' bound to instance 'STATE10A' of component 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:2811]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:40992' bound to instance 'STATE11A' of component 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:2834]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:40992' bound to instance 'STATE12A' of component 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:2850]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:40992' bound to instance 'STATE13A' of component 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:2866]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:40992' bound to instance 'STATE14A' of component 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:2889]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:40992' bound to instance 'STATE15A' of component 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:2905]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:40992' bound to instance 'STATE16A' of component 'FDR' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:2925]
+INFO: [Common 17-14] Message 'Synth 8-3491' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-256] done synthesizing module 'tx_statemachine' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:2365]
+INFO: [Synth 8-638] synthesizing module 'deferral' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:6194]
+INFO: [Synth 8-638] synthesizing module 'defer_state' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:1567]
+INFO: [Synth 8-226] default block is never used [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:1614]
+INFO: [Synth 8-256] done synthesizing module 'defer_state' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:1567]
+INFO: [Synth 8-256] done synthesizing module 'deferral' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:6194]
+INFO: [Synth 8-638] synthesizing module 'ld_arith_reg__parameterized0' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:118]
+INFO: [Synth 8-256] done synthesizing module 'ld_arith_reg__parameterized0' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:118]
+INFO: [Synth 8-638] synthesizing module 'ld_arith_reg__parameterized1' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:118]
+INFO: [Synth 8-6157] synthesizing module 'FDSE' [/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41141]
+INFO: [Synth 8-6155] done synthesizing module 'FDSE' (0#1) [/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:41141]
+INFO: [Synth 8-256] done synthesizing module 'ld_arith_reg__parameterized1' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:118]
+INFO: [Synth 8-256] done synthesizing module 'transmit' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:7552]
+INFO: [Synth 8-638] synthesizing module 'MacAddrRAM' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:8752]
+INFO: [Synth 8-638] synthesizing module 'ram16x4' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:5551]
+INFO: [Synth 8-6157] synthesizing module 'RAM16X1S' [/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:125528]
+INFO: [Synth 8-6155] done synthesizing module 'RAM16X1S' (0#1) [/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:125528]
+INFO: [Synth 8-256] done synthesizing module 'ram16x4' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:5551]
+INFO: [Synth 8-256] done synthesizing module 'MacAddrRAM' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:8752]
+INFO: [Synth 8-256] done synthesizing module 'axi_ethernetlite_v3_0_28_emac' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:10340]
+INFO: [Synth 8-638] synthesizing module 'emac_dpram' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:9548]
+	Parameter MEMORY_SIZE bound to: 8192 - type: integer 
+	Parameter MEMORY_PRIMITIVE bound to: blockram - type: string 
+	Parameter CLOCKING_MODE bound to: common_clock - type: string 
+	Parameter ECC_MODE bound to: no_ecc - type: string 
+	Parameter MEMORY_INIT_FILE bound to: none - type: string 
+	Parameter WAKEUP_TIME bound to: disable_sleep - type: string 
+	Parameter MESSAGE_CONTROL bound to: 0 - type: integer 
+	Parameter WRITE_DATA_WIDTH_A bound to: 4 - type: integer 
+	Parameter READ_DATA_WIDTH_A bound to: 4 - type: integer 
+	Parameter BYTE_WRITE_WIDTH_A bound to: 4 - type: integer 
+	Parameter ADDR_WIDTH_A bound to: 11 - type: integer 
+	Parameter READ_RESET_VALUE_A bound to: 0 - type: string 
+	Parameter READ_LATENCY_A bound to: 1 - type: integer 
+	Parameter WRITE_MODE_A bound to: read_first - type: string 
+	Parameter WRITE_DATA_WIDTH_B bound to: 16 - type: integer 
+	Parameter READ_DATA_WIDTH_B bound to: 16 - type: integer 
+	Parameter BYTE_WRITE_WIDTH_B bound to: 16 - type: integer 
+	Parameter ADDR_WIDTH_B bound to: 9 - type: integer 
+	Parameter READ_RESET_VALUE_B bound to: 0 - type: string 
+	Parameter READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter WRITE_MODE_B bound to: read_first - type: string 
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_tdpram' [/home/deulamco/AMD/Vivado/2023.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:9042]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base__parameterized0' [/home/deulamco/AMD/Vivado/2023.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:54]
+INFO: [Synth 8-6059] Synth Info: [XPM_MEMORY 20-2] MEMORY_INIT_FILE (none), MEMORY_INIT_PARAM together specify no memory initialization. Initial memory contents will be all 0's.   [/home/deulamco/AMD/Vivado/2023.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:508]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base__parameterized0' (0#1) [/home/deulamco/AMD/Vivado/2023.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:54]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_tdpram' (0#1) [/home/deulamco/AMD/Vivado/2023.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:9042]
+	Parameter MEMORY_SIZE bound to: 8192 - type: integer 
+	Parameter MEMORY_PRIMITIVE bound to: blockram - type: string 
+	Parameter CLOCKING_MODE bound to: common_clock - type: string 
+	Parameter ECC_MODE bound to: no_ecc - type: string 
+	Parameter MEMORY_INIT_FILE bound to: none - type: string 
+	Parameter WAKEUP_TIME bound to: disable_sleep - type: string 
+	Parameter MESSAGE_CONTROL bound to: 0 - type: integer 
+	Parameter WRITE_DATA_WIDTH_A bound to: 4 - type: integer 
+	Parameter READ_DATA_WIDTH_A bound to: 4 - type: integer 
+	Parameter BYTE_WRITE_WIDTH_A bound to: 4 - type: integer 
+	Parameter ADDR_WIDTH_A bound to: 11 - type: integer 
+	Parameter READ_RESET_VALUE_A bound to: 0 - type: string 
+	Parameter READ_LATENCY_A bound to: 1 - type: integer 
+	Parameter WRITE_MODE_A bound to: read_first - type: string 
+	Parameter WRITE_DATA_WIDTH_B bound to: 16 - type: integer 
+	Parameter READ_DATA_WIDTH_B bound to: 16 - type: integer 
+	Parameter BYTE_WRITE_WIDTH_B bound to: 16 - type: integer 
+	Parameter ADDR_WIDTH_B bound to: 9 - type: integer 
+	Parameter READ_RESET_VALUE_B bound to: 0 - type: string 
+	Parameter READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter WRITE_MODE_B bound to: read_first - type: string 
+INFO: [Synth 8-256] done synthesizing module 'emac_dpram' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:9548]
+INFO: [Synth 8-638] synthesizing module 'mdio_if' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:8974]
+INFO: [Synth 8-256] done synthesizing module 'mdio_if' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:8974]
+INFO: [Synth 8-256] done synthesizing module 'xemac' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:10880]
+INFO: [Synth 8-638] synthesizing module 'axi_interface' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:12373]
+INFO: [Synth 8-256] done synthesizing module 'axi_interface' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:12373]
+INFO: [Synth 8-256] done synthesizing module 'axi_ethernetlite' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:13404]
+INFO: [Synth 8-256] done synthesizing module 'system_axi_ethernetlite_0_0' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ip/system_axi_ethernetlite_0_0/synth/system_axi_ethernetlite_0_0.vhd:98]
+WARNING: [Synth 8-6014] Unused sequential element busFifoData_is_5_d2_reg was removed.  [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:5019]
+WARNING: [Synth 8-6014] Unused sequential element busFifoData_is_5_d3_reg was removed.  [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:5020]
+WARNING: [Synth 8-6014] Unused sequential element dest_out_bin_ff_reg was removed.  [/home/deulamco/AMD/Vivado/2023.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:417]
+WARNING: [Synth 8-6014] Unused sequential element dest_out_bin_ff_reg was removed.  [/home/deulamco/AMD/Vivado/2023.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv:417]
+WARNING: [Synth 8-6014] Unused sequential element phy_tx_en_i_p_reg was removed.  [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:8164]
+WARNING: [Synth 8-6014] Unused sequential element gen_wr_b.gen_word_wide.wr_sync.addrblsb_reg was removed.  [/home/deulamco/AMD/Vivado/2023.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:1761]
+WARNING: [Synth 8-6014] Unused sequential element gen_rd_b.gen_rd_b_synth_template.gen_rf_wide_reg.rd_sync.addrblsb_reg was removed.  [/home/deulamco/AMD/Vivado/2023.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:2937]
+Info : Asymmetric Ram write pattern identified
+Info : Asymmetric Ram read pattern identified
+WARNING: [Synth 8-6014] Unused sequential element reg_access_d1_reg was removed.  [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:11450]
+WARNING: [Synth 8-6014] Unused sequential element AXI4_LITE_IF_GEN.write_complete_reg was removed.  [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:12832]
+WARNING: [Synth 8-6014] Unused sequential element AXI4_LITE_IF_GEN.read_complete_reg was removed.  [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/59b4/hdl/axi_ethernetlite_v3_0_vh_rfs.vhd:12988]
+WARNING: [Synth 8-7129] Port S_AXI_AWID[0] in module axi_interface is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWLEN[7] in module axi_interface is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWLEN[6] in module axi_interface is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWLEN[5] in module axi_interface is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWLEN[4] in module axi_interface is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWLEN[3] in module axi_interface is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWLEN[2] in module axi_interface is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWLEN[1] in module axi_interface is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWLEN[0] in module axi_interface is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWSIZE[2] in module axi_interface is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWSIZE[1] in module axi_interface is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWSIZE[0] in module axi_interface is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWBURST[1] in module axi_interface is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWBURST[0] in module axi_interface is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWCACHE[3] in module axi_interface is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWCACHE[2] in module axi_interface is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWCACHE[1] in module axi_interface is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWCACHE[0] in module axi_interface is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WLAST in module axi_interface is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARID[0] in module axi_interface is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARLEN[7] in module axi_interface is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARLEN[6] in module axi_interface is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARLEN[5] in module axi_interface is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARLEN[4] in module axi_interface is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARLEN[3] in module axi_interface is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARLEN[2] in module axi_interface is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARLEN[1] in module axi_interface is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARLEN[0] in module axi_interface is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARSIZE[2] in module axi_interface is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARSIZE[1] in module axi_interface is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARSIZE[0] in module axi_interface is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARBURST[1] in module axi_interface is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARBURST[0] in module axi_interface is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARCACHE[3] in module axi_interface is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARCACHE[2] in module axi_interface is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARCACHE[1] in module axi_interface is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARCACHE[0] in module axi_interface is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sleep in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port regcea in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port injectsbiterra in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port injectdbiterra in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clkb in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port regceb in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port injectsbiterrb in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port injectdbiterrb in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_aclk in module cdc_sync is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_resetn in module cdc_sync is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[0] in module cdc_sync is either unconnected or has no load
+WARNING: [Synth 8-7129] Port scndry_resetn in module cdc_sync is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_aclk in module cdc_sync__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_resetn in module cdc_sync__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[0] in module cdc_sync__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port scndry_resetn in module cdc_sync__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TxRst in module tx_statemachine is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BusFifoWrNibbleCnt[0] in module tx_statemachine is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BusFifoWrNibbleCnt[1] in module tx_statemachine is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BusFifoWrNibbleCnt[2] in module tx_statemachine is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BusFifoWrNibbleCnt[3] in module tx_statemachine is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BusFifoWrNibbleCnt[4] in module tx_statemachine is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BusFifoWrNibbleCnt[5] in module tx_statemachine is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BusFifoWrNibbleCnt[6] in module tx_statemachine is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BusFifoWrNibbleCnt[7] in module tx_statemachine is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PhyCollision in module tx_statemachine is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Tx_pong_ping_l in module tx_statemachine is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_aclk in module cdc_sync__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_resetn in module cdc_sync__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[0] in module cdc_sync__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port scndry_resetn in module cdc_sync__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sleep in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rsta in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port regcea in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port injectsbiterra in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port injectdbiterra in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port regceb in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[5] in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[4] in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[3] in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[2] in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[1] in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[0] in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port injectsbiterrb in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port injectdbiterrb in module xpm_memory_base is either unconnected or has no load
+WARNING: [Synth 8-7129] Port InternalWrapEn in module rx_intrfce is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Rcv_en in module rx_intrfce is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Emac_rx_rd_data_d1[4] in module rx_statemachine is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Emac_rx_rd_data_d1[5] in module rx_statemachine is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Collision in module rx_statemachine is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Rx_pong_ping_l in module rx_statemachine is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Rx_DPM_rd_data[0] in module rx_statemachine is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Rx_DPM_rd_data[1] in module rx_statemachine is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Rx_DPM_rd_data[2] in module rx_statemachine is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Rx_DPM_rd_data[3] in module rx_statemachine is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Addr[1] in module xemac is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2IP_Addr[0] in module xemac is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_aclk in module cdc_sync__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_resetn in module cdc_sync__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_in in module cdc_sync__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port scndry_resetn in module cdc_sync__parameterized1 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 2285.656 ; gain = 620.684 ; free physical = 359 ; free virtual = 19607
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 2285.656 ; gain = 620.684 ; free physical = 342 ; free virtual = 19603
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 2285.656 ; gain = 620.684 ; free physical = 342 ; free virtual = 19603
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2288.625 ; gain = 0.000 ; free physical = 323 ; free virtual = 19592
+INFO: [Netlist 29-17] Analyzing 225 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ip/system_axi_ethernetlite_0_0/system_axi_ethernetlite_0_0_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ip/system_axi_ethernetlite_0_0/system_axi_ethernetlite_0_0_ooc.xdc] for cell 'U0'
+Parsing XDC File [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ip/system_axi_ethernetlite_0_0/system_axi_ethernetlite_0_0_board.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ip/system_axi_ethernetlite_0_0/system_axi_ethernetlite_0_0_board.xdc] for cell 'U0'
+Parsing XDC File [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ip/system_axi_ethernetlite_0_0/system_axi_ethernetlite_0_0.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ip/system_axi_ethernetlite_0_0/system_axi_ethernetlite_0_0.xdc] for cell 'U0'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ip/system_axi_ethernetlite_0_0/system_axi_ethernetlite_0_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/system_axi_ethernetlite_0_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/system_axi_ethernetlite_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [/home/deulamco/Documents/echo_server/echo_server.runs/system_axi_ethernetlite_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/deulamco/Documents/echo_server/echo_server.runs/system_axi_ethernetlite_0_0_synth_1/dont_touch.xdc]
+Parsing XDC File [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ip/system_axi_ethernetlite_0_0/system_axi_ethernetlite_0_0_clocks.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ip/system_axi_ethernetlite_0_0/system_axi_ethernetlite_0_0_clocks.xdc] for cell 'U0'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/deulamco/AMD/Vivado/2023.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/system_axi_ethernetlite_0_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/system_axi_ethernetlite_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/deulamco/AMD/Vivado/2023.2/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/system_axi_ethernetlite_0_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/system_axi_ethernetlite_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/deulamco/AMD/Vivado/2023.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/system_axi_ethernetlite_0_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/system_axi_ethernetlite_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Project 1-1714] 22 XPM XDC files have been applied to the design.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2381.469 ; gain = 0.000 ; free physical = 239 ; free virtual = 19491
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 161 instances were transformed.
+  FDR => FDRE: 127 instances
+  FDS => FDSE: 2 instances
+  MULT_AND => LUT2: 28 instances
+  RAM16X1S => RAM32X1S (RAMS32): 4 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2381.504 ; gain = 0.000 ; free physical = 239 ; free virtual = 19494
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 2381.504 ; gain = 716.531 ; free physical = 345 ; free virtual = 19463
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35ticsg324-1L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 2381.504 ; gain = 716.531 ; free physical = 345 ; free virtual = 19462
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  /home/deulamco/Documents/echo_server/echo_server.runs/system_axi_ethernetlite_0_0_synth_1/dont_touch.xdc, line 9).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/\xpm_fifo_instance.xpm_fifo_async_inst /\gnuram_async_fifo.xpm_fifo_base_inst /\gen_cdc_pntr.rd_pntr_cdc_inst . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/\xpm_fifo_instance.xpm_fifo_async_inst /\gnuram_async_fifo.xpm_fifo_base_inst /\gen_cdc_pntr.rd_pntr_cdc_inst . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/\xpm_fifo_instance.xpm_fifo_async_inst /\gnuram_async_fifo.xpm_fifo_base_inst /\gen_cdc_pntr.wr_pntr_cdc_inst . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/\xpm_fifo_instance.xpm_fifo_async_inst /\gnuram_async_fifo.xpm_fifo_base_inst /\gen_cdc_pntr.wr_pntr_cdc_inst . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/\xpm_fifo_instance.xpm_fifo_async_inst /\gnuram_async_fifo.xpm_fifo_base_inst /\gen_cdc_pntr.rd_pntr_cdc_dc_inst . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/\xpm_fifo_instance.xpm_fifo_async_inst /\gnuram_async_fifo.xpm_fifo_base_inst /\gen_cdc_pntr.rd_pntr_cdc_dc_inst . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/\xpm_fifo_instance.xpm_fifo_async_inst /\gnuram_async_fifo.xpm_fifo_base_inst /\gen_cdc_pntr.wr_pntr_cdc_dc_inst . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/\xpm_fifo_instance.xpm_fifo_async_inst /\gnuram_async_fifo.xpm_fifo_base_inst /\gen_cdc_pntr.wr_pntr_cdc_dc_inst . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/\xpm_fifo_instance.xpm_fifo_async_inst /\gnuram_async_fifo.xpm_fifo_base_inst /xpm_fifo_rst_inst/\gen_rst_ic.rrst_wr_inst . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/\xpm_fifo_instance.xpm_fifo_async_inst /\gnuram_async_fifo.xpm_fifo_base_inst /xpm_fifo_rst_inst/\gen_rst_ic.rrst_wr_inst . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/\xpm_fifo_instance.xpm_fifo_async_inst /\gnuram_async_fifo.xpm_fifo_base_inst /xpm_fifo_rst_inst/\gen_rst_ic.wrst_rd_inst . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/\xpm_fifo_instance.xpm_fifo_async_inst /\gnuram_async_fifo.xpm_fifo_base_inst /xpm_fifo_rst_inst/\gen_rst_ic.wrst_rd_inst . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/I_RX_FIFO/\xpm_fifo_instance.xpm_fifo_async_inst . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/I_TX_FIFO/\xpm_fifo_instance.xpm_fifo_async_inst . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/XEMAC_I/TX_PING/\xpm_mem_gen.xpm_memory_inst_1 . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/XEMAC_I/RX_PING/\xpm_mem_gen.xpm_memory_inst_1 . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/XEMAC_I/\TX_PONG_GEN.TX_PONG_I /\xpm_mem_gen.xpm_memory_inst_1 . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/XEMAC_I/\RX_PONG_GEN.RX_PONG_I /\xpm_mem_gen.xpm_memory_inst_1 . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/XEMAC_I/TX_PING/\xpm_mem_gen.xpm_memory_inst_2 . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/XEMAC_I/RX_PING/\xpm_mem_gen.xpm_memory_inst_2 . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/XEMAC_I/\TX_PONG_GEN.TX_PONG_I /\xpm_mem_gen.xpm_memory_inst_2 . (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/XEMAC_I/\RX_PONG_GEN.RX_PONG_I /\xpm_mem_gen.xpm_memory_inst_2 . (constraint file  auto generated constraint).
+Applied set_property KEEP = true for phy_col. (constraint file  auto generated constraint).
+Applied set_property KEEP = true for phy_crs. (constraint file  auto generated constraint).
+Applied set_property KEEP = true for phy_dv. (constraint file  auto generated constraint).
+Applied set_property KEEP = true for U0/XEMAC_I/\MDIO_GEN.mdio_clk_i . (constraint file  auto generated constraint).
+Applied set_property KEEP = true for U0/XEMAC_I/\MDIO_GEN.MDIO_IF_I /PHY_MDIO_T. (constraint file  auto generated constraint).
+Applied set_property KEEP = true for s_axi_aresetn. (constraint file  auto generated constraint).
+Applied set_property KEEP = true for phy_rx_clk. (constraint file  auto generated constraint).
+Applied set_property KEEP = true for phy_rx_data[0]. (constraint file  auto generated constraint).
+Applied set_property KEEP = true for phy_rx_er. (constraint file  auto generated constraint).
+Applied set_property KEEP = true for phy_tx_clk. (constraint file  auto generated constraint).
+Applied set_property KEEP = true for U0/phy_tx_data[0]. (constraint file  auto generated constraint).
+Applied set_property KEEP = true for U0/phy_tx_data[1]. (constraint file  auto generated constraint).
+Applied set_property KEEP = true for U0/phy_tx_data[2]. (constraint file  auto generated constraint).
+Applied set_property KEEP = true for U0/phy_tx_data[3]. (constraint file  auto generated constraint).
+Applied set_property KEEP = true for U0/phy_tx_en. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 2381.504 ; gain = 716.531 ; free physical = 342 ; free virtual = 19459
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'rdDestAddrNib_D_t_q_reg' in module 'rx_statemachine'
+INFO: [Synth 8-802] inferred FSM for state register 'gen_rst_ic.curr_wrst_state_reg' in module 'xpm_fifo_rst__xdcDup__1'
+INFO: [Synth 8-802] inferred FSM for state register 'gen_rst_ic.curr_rrst_state_reg' in module 'xpm_fifo_rst__xdcDup__1'
+INFO: [Synth 8-802] inferred FSM for state register 'gen_rst_ic.curr_wrst_state_reg' in module 'xpm_fifo_rst'
+INFO: [Synth 8-802] inferred FSM for state register 'gen_rst_ic.curr_rrst_state_reg' in module 'xpm_fifo_rst'
+INFO: [Synth 8-802] inferred FSM for state register 'thisState_reg' in module 'defer_state'
+INFO: [Synth 8-802] inferred FSM for state register 'mdio_state_reg' in module 'mdio_if'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE6 |                    0000000000001 |                             0000
+                 iSTATE5 |                    0000000000010 |                             0001
+                 iSTATE1 |                    0000000000100 |                             0010
+                  iSTATE |                    0000000001000 |                             0011
+                 iSTATE0 |                    0000000010000 |                             0100
+                iSTATE11 |                    0000000100000 |                             0101
+                iSTATE10 |                    0000001000000 |                             0110
+                 iSTATE8 |                    0000010000000 |                             0111
+                 iSTATE9 |                    0000100000000 |                             1000
+                 iSTATE7 |                    0001000000000 |                             1001
+                 iSTATE4 |                    0010000000000 |                             1010
+                 iSTATE2 |                    0100000000000 |                             1011
+                 iSTATE3 |                    1000000000000 |                             1100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'rdDestAddrNib_D_t_q_reg' using encoding 'one-hot' in module 'rx_statemachine'
+INFO: [Synth 8-5552] Implemented safe state 'default_state' for state register 'gen_rst_ic.curr_wrst_state_reg' in module 'xpm_fifo_rst__xdcDup__1'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+               WRST_IDLE |                            00001 |                              000
+                 WRST_IN |                            00010 |                              010
+                WRST_OUT |                            00100 |                              111
+               WRST_EXIT |                            01000 |                              110
+            WRST_GO2IDLE |                            10000 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'gen_rst_ic.curr_wrst_state_reg' using encoding 'one-hot' in module 'xpm_fifo_rst__xdcDup__1'
+INFO: [Synth 8-5552] Implemented safe state 'default_state' for state register 'gen_rst_ic.curr_rrst_state_reg' in module 'xpm_fifo_rst__xdcDup__1'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+               RRST_IDLE |                               00 |                               00
+                 RRST_IN |                               01 |                               10
+                RRST_OUT |                               10 |                               11
+               RRST_EXIT |                               11 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'gen_rst_ic.curr_rrst_state_reg' using encoding 'sequential' in module 'xpm_fifo_rst__xdcDup__1'
+INFO: [Synth 8-5552] Implemented safe state 'default_state' for state register 'gen_rst_ic.curr_wrst_state_reg' in module 'xpm_fifo_rst'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+               WRST_IDLE |                            00001 |                              000
+                 WRST_IN |                            00010 |                              010
+                WRST_OUT |                            00100 |                              111
+               WRST_EXIT |                            01000 |                              110
+            WRST_GO2IDLE |                            10000 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'gen_rst_ic.curr_wrst_state_reg' using encoding 'one-hot' in module 'xpm_fifo_rst'
+INFO: [Synth 8-5552] Implemented safe state 'default_state' for state register 'gen_rst_ic.curr_rrst_state_reg' in module 'xpm_fifo_rst'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+               RRST_IDLE |                               00 |                               00
+                 RRST_IN |                               01 |                               10
+                RRST_OUT |                               10 |                               11
+               RRST_EXIT |                               11 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'gen_rst_ic.curr_rrst_state_reg' using encoding 'sequential' in module 'xpm_fifo_rst'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                loadcntr |                               01 |                               00
+           startifgp1cnt |                               11 |                               01
+           startifgp2cnt |                               10 |                               10
+                 cntdone |                               00 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'thisState_reg' using encoding 'sequential' in module 'defer_state'
+INFO: [Synth 8-3971] The signal "xpm_memory_base__parameterized0:/gen_wr_b.gen_word_wide.mem_reg" was recognized as a true dual port RAM template.
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                    0000000000001 |                             0000
+                preamble |                    0000000000010 |                             0001
+                     st1 |                    0000000000100 |                             0010
+                     st2 |                    0000000001000 |                             0011
+                     op1 |                    0000000010000 |                             0100
+                     op2 |                    0000000100000 |                             0101
+                phy_addr |                    0000001000000 |                             1000
+                reg_addr |                    0000010000000 |                             1001
+                     ta1 |                    0000100000000 |                             0110
+                     ta2 |                    0001000000000 |                             0111
+                   write |                    0010000000000 |                             1010
+                    read |                    0100000000000 |                             1011
+                    done |                    1000000000000 |                             1100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'mdio_state_reg' using encoding 'one-hot' in module 'mdio_if'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 2381.504 ; gain = 716.531 ; free physical = 854 ; free virtual = 19973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   12 Bit       Adders := 1     
+	   2 Input    7 Bit       Adders := 1     
+	   2 Input    6 Bit       Adders := 2     
+	   4 Input    5 Bit       Adders := 4     
+	   2 Input    5 Bit       Adders := 5     
+	   3 Input    5 Bit       Adders := 4     
+	   4 Input    4 Bit       Adders := 10    
+	   3 Input    4 Bit       Adders := 2     
++---XORs : 
+	   2 Input      5 Bit         XORs := 4     
+	   2 Input      4 Bit         XORs := 4     
+	   2 Input      1 Bit         XORs := 86    
+	   3 Input      1 Bit         XORs := 19    
+	   4 Input      1 Bit         XORs := 14    
++---Registers : 
+	               32 Bit    Registers := 5     
+	               16 Bit    Registers := 12    
+	               13 Bit    Registers := 1     
+	               12 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 7     
+	                5 Bit    Registers := 31    
+	                4 Bit    Registers := 39    
+	                2 Bit    Registers := 6     
+	                1 Bit    Registers := 110   
++---RAMs : 
+	               8K Bit	(2048 X 4 bit)          RAMs := 8     
+	               96 Bit	(16 X 6 bit)          RAMs := 2     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 1     
+	  10 Input   32 Bit        Muxes := 1     
+	  13 Input   16 Bit        Muxes := 1     
+	   2 Input   16 Bit        Muxes := 1     
+	  13 Input   13 Bit        Muxes := 2     
+	   2 Input   13 Bit        Muxes := 27    
+	   2 Input   12 Bit        Muxes := 3     
+	   2 Input    6 Bit        Muxes := 2     
+	   5 Input    6 Bit        Muxes := 1     
+	   6 Input    5 Bit        Muxes := 2     
+	   2 Input    5 Bit        Muxes := 20    
+	  13 Input    5 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 9     
+	   3 Input    4 Bit        Muxes := 5     
+	  13 Input    4 Bit        Muxes := 2     
+	  11 Input    4 Bit        Muxes := 1     
+	  12 Input    4 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 3     
+	   3 Input    3 Bit        Muxes := 3     
+	   2 Input    2 Bit        Muxes := 12    
+	   3 Input    2 Bit        Muxes := 1     
+	   5 Input    2 Bit        Muxes := 2     
+	   4 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 70    
+	   6 Input    1 Bit        Muxes := 4     
+	   5 Input    1 Bit        Muxes := 7     
+	  13 Input    1 Bit        Muxes := 5     
+	   8 Input    1 Bit        Muxes := 1     
+	   4 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port regcea in module xpm_memory_base__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port injectsbiterra in module xpm_memory_base__parameterized0 is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3971] The signal "xpm_memory_tdpram:/xpm_memory_base_inst/gen_wr_b.gen_word_wide.mem_reg" was recognized as a true dual port RAM template.
+INFO: [Synth 8-3332] Sequential element (BUS_RST_RX_SYNC_CORE_I/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (BUS_RST_RX_SYNC_CORE_I/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (BUS_RST_TX_SYNC_CORE_I/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (BUS_RST_TX_SYNC_CORE_I/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (CDC_PHY_TX_EN_O/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d3) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (CDC_PHY_TX_EN_O/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (CDC_PHY_TX_EN_O/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (CDC_PHY_TX_EN_O/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (CDC_PHY_TX_DATA_OUT/GENERATE_LEVEL_P_S_CDC.MULTI_BIT.FOR_CROSS_PLEVEL_IN2SCNDRY_bus_d3[0].CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d3) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (CDC_PHY_TX_DATA_OUT/GENERATE_LEVEL_P_S_CDC.MULTI_BIT.FOR_CROSS_PLEVEL_IN2SCNDRY_bus_d3[1].CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d3) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (CDC_PHY_TX_DATA_OUT/GENERATE_LEVEL_P_S_CDC.MULTI_BIT.FOR_CROSS_PLEVEL_IN2SCNDRY_bus_d3[2].CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d3) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (CDC_PHY_TX_DATA_OUT/GENERATE_LEVEL_P_S_CDC.MULTI_BIT.FOR_CROSS_PLEVEL_IN2SCNDRY_bus_d3[3].CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d3) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (CDC_PHY_TX_DATA_OUT/GENERATE_LEVEL_P_S_CDC.MULTI_BIT.FOR_CROSS_PLEVEL_IN2SCNDRY_bus_d4[0].CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d4) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (CDC_PHY_TX_DATA_OUT/GENERATE_LEVEL_P_S_CDC.MULTI_BIT.FOR_CROSS_PLEVEL_IN2SCNDRY_bus_d4[1].CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d4) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (CDC_PHY_TX_DATA_OUT/GENERATE_LEVEL_P_S_CDC.MULTI_BIT.FOR_CROSS_PLEVEL_IN2SCNDRY_bus_d4[2].CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d4) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (CDC_PHY_TX_DATA_OUT/GENERATE_LEVEL_P_S_CDC.MULTI_BIT.FOR_CROSS_PLEVEL_IN2SCNDRY_bus_d4[3].CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d4) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (CDC_PHY_TX_DATA_OUT/GENERATE_LEVEL_P_S_CDC.MULTI_BIT.FOR_CROSS_PLEVEL_IN2SCNDRY_bus_d5[0].CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (CDC_PHY_TX_DATA_OUT/GENERATE_LEVEL_P_S_CDC.MULTI_BIT.FOR_CROSS_PLEVEL_IN2SCNDRY_bus_d5[1].CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (CDC_PHY_TX_DATA_OUT/GENERATE_LEVEL_P_S_CDC.MULTI_BIT.FOR_CROSS_PLEVEL_IN2SCNDRY_bus_d5[2].CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (CDC_PHY_TX_DATA_OUT/GENERATE_LEVEL_P_S_CDC.MULTI_BIT.FOR_CROSS_PLEVEL_IN2SCNDRY_bus_d5[3].CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (CDC_PHY_TX_DATA_OUT/GENERATE_LEVEL_P_S_CDC.MULTI_BIT.FOR_CROSS_PLEVEL_IN2SCNDRY_bus_d6[0].CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (CDC_PHY_TX_DATA_OUT/GENERATE_LEVEL_P_S_CDC.MULTI_BIT.FOR_CROSS_PLEVEL_IN2SCNDRY_bus_d6[1].CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (CDC_PHY_TX_DATA_OUT/GENERATE_LEVEL_P_S_CDC.MULTI_BIT.FOR_CROSS_PLEVEL_IN2SCNDRY_bus_d6[2].CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (CDC_PHY_TX_DATA_OUT/GENERATE_LEVEL_P_S_CDC.MULTI_BIT.FOR_CROSS_PLEVEL_IN2SCNDRY_bus_d6[3].CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (XEMAC_I/EMAC_I/RX/INST_RX_STATE/state21a) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/CDC_FIFO_RST/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (XEMAC_I/EMAC_I/RX/INST_RX_INTRFCE/CDC_FIFO_RST/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/CDC_FIFO_EMPTY/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/CDC_FIFO_EMPTY/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (XEMAC_I/EMAC_I/TX/INST_TX_INTRFCE/CDC_FIFO_EMPTY/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (XEMAC_I/EMAC_I/TX/INST_TX_STATE_MACHINE/STATE18A) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (XEMAC_I/EMAC_I/TX/INST_TX_STATE_MACHINE/STATE19A) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (XEMAC_I/EMAC_I/TX/INST_TX_STATE_MACHINE/STATE20A) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (XEMAC_I/EMAC_I/TX/INST_TX_STATE_MACHINE/STATE21A) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (XEMAC_I/EMAC_I/TX/INST_TX_STATE_MACHINE/STATE22A) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (XEMAC_I/EMAC_I/TX/INST_TX_STATE_MACHINE/STATE23A) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (XEMAC_I/EMAC_I/TX/INST_TXBUSFIFOWRITENIBBLECOUNT/PERBIT_GEN[7].FF_RST0_GEN.FDRE_i1) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (XEMAC_I/EMAC_I/TX/INST_TXBUSFIFOWRITENIBBLECOUNT/PERBIT_GEN[6].FF_RST0_GEN.FDRE_i1) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (XEMAC_I/EMAC_I/TX/INST_TXBUSFIFOWRITENIBBLECOUNT/PERBIT_GEN[5].FF_RST0_GEN.FDRE_i1) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (XEMAC_I/EMAC_I/TX/INST_TXBUSFIFOWRITENIBBLECOUNT/PERBIT_GEN[4].FF_RST0_GEN.FDRE_i1) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (XEMAC_I/EMAC_I/TX/INST_TXBUSFIFOWRITENIBBLECOUNT/PERBIT_GEN[3].FF_RST0_GEN.FDRE_i1) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (XEMAC_I/EMAC_I/TX/INST_TXBUSFIFOWRITENIBBLECOUNT/PERBIT_GEN[2].FF_RST0_GEN.FDRE_i1) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (XEMAC_I/EMAC_I/TX/INST_TXBUSFIFOWRITENIBBLECOUNT/PERBIT_GEN[1].FF_RST0_GEN.FDRE_i1) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (XEMAC_I/EMAC_I/TX/INST_TXBUSFIFOWRITENIBBLECOUNT/PERBIT_GEN[0].FF_RST0_GEN.FDRE_i1) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (XEMAC_I/EMAC_I/TX/CDC_TX_EN/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d3) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (XEMAC_I/EMAC_I/TX/CDC_TX_EN/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (XEMAC_I/EMAC_I/TX/CDC_TX_EN/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (XEMAC_I/EMAC_I/TX/CDC_TX_EN/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (XEMAC_I/EMAC_I/TX/CDC_PHY_TX_RST/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d3) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (XEMAC_I/EMAC_I/TX/CDC_PHY_TX_RST/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (XEMAC_I/EMAC_I/TX/CDC_PHY_TX_RST/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (XEMAC_I/EMAC_I/TX/CDC_PHY_TX_RST/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (XEMAC_I/EMAC_I/CDC_TX_CLK/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5) is unused and will be removed from module axi_ethernetlite.
+INFO: [Synth 8-3332] Sequential element (XEMAC_I/EMAC_I/CDC_TX_CLK/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6) is unused and will be removed from module axi_ethernetlite.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2381.504 ; gain = 716.531 ; free physical = 1638 ; free virtual = 20776
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Preliminary Mapping Report (see note below)
++----------------------------------------+--------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name                             | RTL Object                     | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++----------------------------------------+--------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|xpm_memory_tdpram:/xpm_memory_base_inst | gen_wr_b.gen_word_wide.mem_reg | 2 K x 4(READ_FIRST)    | W | R | 512 x 16(READ_FIRST)   | W | R | Port A and B     | 1      | 0      | 
+|xpm_memory_tdpram:/xpm_memory_base_inst | gen_wr_b.gen_word_wide.mem_reg | 2 K x 4(READ_FIRST)    | W | R | 512 x 16(READ_FIRST)   | W | R | Port A and B     | 1      | 0      | 
+|xpm_memory_tdpram:/xpm_memory_base_inst | gen_wr_b.gen_word_wide.mem_reg | 2 K x 4(READ_FIRST)    | W | R | 512 x 16(READ_FIRST)   | W | R | Port A and B     | 1      | 0      | 
+|xpm_memory_tdpram:/xpm_memory_base_inst | gen_wr_b.gen_word_wide.mem_reg | 2 K x 4(READ_FIRST)    | W | R | 512 x 16(READ_FIRST)   | W | R | Port A and B     | 1      | 0      | 
+|xpm_memory_tdpram:/xpm_memory_base_inst | gen_wr_b.gen_word_wide.mem_reg | 2 K x 4(READ_FIRST)    | W | R | 512 x 16(READ_FIRST)   | W | R | Port A and B     | 1      | 0      | 
+|xpm_memory_tdpram:/xpm_memory_base_inst | gen_wr_b.gen_word_wide.mem_reg | 2 K x 4(READ_FIRST)    | W | R | 512 x 16(READ_FIRST)   | W | R | Port A and B     | 1      | 0      | 
+|xpm_memory_tdpram:/xpm_memory_base_inst | gen_wr_b.gen_word_wide.mem_reg | 2 K x 4(READ_FIRST)    | W | R | 512 x 16(READ_FIRST)   | W | R | Port A and B     | 1      | 0      | 
+|xpm_memory_tdpram:/xpm_memory_base_inst | gen_wr_b.gen_word_wide.mem_reg | 2 K x 4(READ_FIRST)    | W | R | 512 x 16(READ_FIRST)   | W | R | Port A and B     | 1      | 0      | 
++----------------------------------------+--------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+
+Distributed RAM: Preliminary Mapping Report (see note below)
++-----------------+----------------------------------+-----------+----------------------+-------------+
+|Module Name      | RTL Object                       | Inference | Size (Depth x Width) | Primitives  | 
++-----------------+----------------------------------+-----------+----------------------+-------------+
+|xpm_memory_base: | gen_wr_a.gen_word_narrow.mem_reg | Implied   | 16 x 6               | RAM32M x 1  | 
+|xpm_memory_base: | gen_wr_a.gen_word_narrow.mem_reg | Implied   | 16 x 6               | RAM32M x 1  | 
++-----------------+----------------------------------+-----------+----------------------+-------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2381.504 ; gain = 716.531 ; free physical = 1664 ; free virtual = 20804
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2381.504 ; gain = 716.531 ; free physical = 1658 ; free virtual = 20799
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping Report
++----------------------------------------+--------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name                             | RTL Object                     | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++----------------------------------------+--------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|xpm_memory_tdpram:/xpm_memory_base_inst | gen_wr_b.gen_word_wide.mem_reg | 2 K x 4(READ_FIRST)    | W | R | 512 x 16(READ_FIRST)   | W | R | Port A and B     | 1      | 0      | 
+|xpm_memory_tdpram:/xpm_memory_base_inst | gen_wr_b.gen_word_wide.mem_reg | 2 K x 4(READ_FIRST)    | W | R | 512 x 16(READ_FIRST)   | W | R | Port A and B     | 1      | 0      | 
+|xpm_memory_tdpram:/xpm_memory_base_inst | gen_wr_b.gen_word_wide.mem_reg | 2 K x 4(READ_FIRST)    | W | R | 512 x 16(READ_FIRST)   | W | R | Port A and B     | 1      | 0      | 
+|xpm_memory_tdpram:/xpm_memory_base_inst | gen_wr_b.gen_word_wide.mem_reg | 2 K x 4(READ_FIRST)    | W | R | 512 x 16(READ_FIRST)   | W | R | Port A and B     | 1      | 0      | 
+|xpm_memory_tdpram:/xpm_memory_base_inst | gen_wr_b.gen_word_wide.mem_reg | 2 K x 4(READ_FIRST)    | W | R | 512 x 16(READ_FIRST)   | W | R | Port A and B     | 1      | 0      | 
+|xpm_memory_tdpram:/xpm_memory_base_inst | gen_wr_b.gen_word_wide.mem_reg | 2 K x 4(READ_FIRST)    | W | R | 512 x 16(READ_FIRST)   | W | R | Port A and B     | 1      | 0      | 
+|xpm_memory_tdpram:/xpm_memory_base_inst | gen_wr_b.gen_word_wide.mem_reg | 2 K x 4(READ_FIRST)    | W | R | 512 x 16(READ_FIRST)   | W | R | Port A and B     | 1      | 0      | 
+|xpm_memory_tdpram:/xpm_memory_base_inst | gen_wr_b.gen_word_wide.mem_reg | 2 K x 4(READ_FIRST)    | W | R | 512 x 16(READ_FIRST)   | W | R | Port A and B     | 1      | 0      | 
++----------------------------------------+--------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+
+Distributed RAM: Final Mapping Report
++-----------------+----------------------------------+-----------+----------------------+-------------+
+|Module Name      | RTL Object                       | Inference | Size (Depth x Width) | Primitives  | 
++-----------------+----------------------------------+-----------+----------------------+-------------+
+|xpm_memory_base: | gen_wr_a.gen_word_narrow.mem_reg | Implied   | 16 x 6               | RAM32M x 1  | 
+|xpm_memory_base: | gen_wr_a.gen_word_narrow.mem_reg | Implied   | 16 x 6               | RAM32M x 1  | 
++-----------------+----------------------------------+-----------+----------------------+-------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance U0/XEMAC_I/TX_PING/xpm_mem_gen.xpm_memory_inst_1/xpm_memory_base_inst/gen_wr_b.gen_word_wide.mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance U0/XEMAC_I/TX_PING/xpm_mem_gen.xpm_memory_inst_1/xpm_memory_base_inst/gen_wr_b.gen_word_wide.mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance U0/XEMAC_I/TX_PING/xpm_mem_gen.xpm_memory_inst_2/xpm_memory_base_inst/gen_wr_b.gen_word_wide.mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance U0/XEMAC_I/TX_PING/xpm_mem_gen.xpm_memory_inst_2/xpm_memory_base_inst/gen_wr_b.gen_word_wide.mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance U0/XEMAC_I/RX_PING/xpm_mem_gen.xpm_memory_inst_1/xpm_memory_base_inst/gen_wr_b.gen_word_wide.mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance U0/XEMAC_I/RX_PING/xpm_mem_gen.xpm_memory_inst_2/xpm_memory_base_inst/gen_wr_b.gen_word_wide.mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance U0/XEMAC_I/TX_PONG_GEN.TX_PONG_I/xpm_mem_gen.xpm_memory_inst_1/xpm_memory_base_inst/gen_wr_b.gen_word_wide.mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance U0/XEMAC_I/TX_PONG_GEN.TX_PONG_I/xpm_mem_gen.xpm_memory_inst_1/xpm_memory_base_inst/gen_wr_b.gen_word_wide.mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance U0/XEMAC_I/TX_PONG_GEN.TX_PONG_I/xpm_mem_gen.xpm_memory_inst_2/xpm_memory_base_inst/gen_wr_b.gen_word_wide.mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance U0/XEMAC_I/TX_PONG_GEN.TX_PONG_I/xpm_mem_gen.xpm_memory_inst_2/xpm_memory_base_inst/gen_wr_b.gen_word_wide.mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance U0/XEMAC_I/RX_PONG_GEN.RX_PONG_I/xpm_mem_gen.xpm_memory_inst_1/xpm_memory_base_inst/gen_wr_b.gen_word_wide.mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance U0/XEMAC_I/RX_PONG_GEN.RX_PONG_I/xpm_mem_gen.xpm_memory_inst_2/xpm_memory_base_inst/gen_wr_b.gen_word_wide.mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 2381.504 ; gain = 716.531 ; free physical = 1646 ; free virtual = 20786
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 2381.504 ; gain = 716.531 ; free physical = 1644 ; free virtual = 20785
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 2381.504 ; gain = 716.531 ; free physical = 1644 ; free virtual = 20785
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 2381.504 ; gain = 716.531 ; free physical = 1649 ; free virtual = 20790
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 2381.504 ; gain = 716.531 ; free physical = 1649 ; free virtual = 20790
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 2381.504 ; gain = 716.531 ; free physical = 1649 ; free virtual = 20790
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 2381.504 ; gain = 716.531 ; free physical = 1649 ; free virtual = 20790
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     2|
+|2     |CARRY4   |     9|
+|3     |LUT1     |    31|
+|4     |LUT2     |   130|
+|5     |LUT3     |   117|
+|6     |LUT4     |   200|
+|7     |LUT5     |   168|
+|8     |LUT6     |   235|
+|9     |MULT_AND |    17|
+|10    |MUXCY    |    25|
+|11    |MUXF7    |     2|
+|12    |MUXF8    |     1|
+|13    |RAM16X1S |     4|
+|14    |RAM32M   |     2|
+|15    |RAMB18E1 |     8|
+|16    |XORCY    |    20|
+|17    |FDR      |    81|
+|18    |FDRE     |   652|
+|19    |FDS      |     2|
+|20    |FDSE     |    75|
+|21    |IBUF     |     2|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 2381.504 ; gain = 716.531 ; free physical = 1649 ; free virtual = 20790
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 66 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 2381.504 ; gain = 620.684 ; free physical = 1649 ; free virtual = 20790
+Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 2381.504 ; gain = 716.531 ; free physical = 1650 ; free virtual = 20791
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2381.504 ; gain = 0.000 ; free physical = 1947 ; free virtual = 21088
+INFO: [Netlist 29-17] Analyzing 171 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2381.504 ; gain = 0.000 ; free physical = 1946 ; free virtual = 21087
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 115 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 9 instances
+  FDR => FDRE: 81 instances
+  FDS => FDSE: 2 instances
+  MULT_AND => LUT2: 17 instances
+  RAM16X1S => RAM32X1S (RAMS32): 4 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 2 instances
+
+Synth Design complete | Checksum: 6c3bc572
+INFO: [Common 17-83] Releasing license: Synthesis
+368 Infos, 111 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:24 . Memory (MB): peak = 2381.504 ; gain = 1047.539 ; free physical = 1946 ; free virtual = 21087
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1761.320; main = 1453.875; forked = 310.341
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3367.016; main = 2381.473; forked = 1017.559
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2405.480 ; gain = 0.000 ; free physical = 1946 ; free virtual = 21087
+INFO: [Common 17-1381] The checkpoint '/home/deulamco/Documents/echo_server/echo_server.runs/system_axi_ethernetlite_0_0_synth_1/system_axi_ethernetlite_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP system_axi_ethernetlite_0_0, cache-ID = 340587afa5a69ea1
+INFO: [Coretcl 2-1174] Renamed 99 cell refs.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2405.480 ; gain = 0.000 ; free physical = 1944 ; free virtual = 21089
+INFO: [Common 17-1381] The checkpoint '/home/deulamco/Documents/echo_server/echo_server.runs/system_axi_ethernetlite_0_0_synth_1/system_axi_ethernetlite_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file system_axi_ethernetlite_0_0_utilization_synth.rpt -pb system_axi_ethernetlite_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed May 22 08:16:03 2024...

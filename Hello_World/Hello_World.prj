@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="Hello_World" location="/home/deulamco/Documents/FPGA/echo_server/Hello_World" platform="/home/deulamco/Documents/FPGA/echo_server/platform_standalone/export/platform_standalone/platform_standalone.xpfm" platformUID="xilinx:arty-a7-35::0.0(custom)" systemProject="Hello_World_system" sysConfig="platform_standalone" runtime="C/C++" cpu="standalone_domain" cpuInstance="microblaze_0" os="standalone" mssSignature="3181749497a4608387b4fc7975f2bb6a">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.942372976">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.2097227493" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

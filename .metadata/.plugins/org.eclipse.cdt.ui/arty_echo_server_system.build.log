@@ -1,0 +1,6 @@
+15:39:24 **** Build of configuration Debug for project arty_echo_server_system ****
+make all 
+Skipping SD card image generation. Reason: The system project only has applications for microblaze processors.
+
+15:39:25 Build Finished (took 225ms)
+

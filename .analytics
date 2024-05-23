@@ -1,0 +1,72 @@
+timestamp=[2024-05-22 13:58:41], mode=WORKBENCH_START, duration=0:00:02.905, duration_ms=2905, data={}
+timestamp=[2024-05-22 13:58:41], mode=WORKBENCH_UI_INIT, duration=0:00:00.226, duration_ms=226, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2024-05-22 13:58:41], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.144, duration_ms=144, data={}
+timestamp=[2024-05-22 13:59:35], mode=PLATFORM_CREATION, duration=0:00:00.722, duration_ms=722, data={platform_source=dsa, os=standalone, processor=microblaze, platform=null}
+timestamp=[2024-05-22 13:59:42], mode=PLATFORM_GENERATION, duration=0:00:04.589, duration_ms=4589, data={name=platform_standalone}
+timestamp=[2024-05-22 14:00:04], mode=PLATFORM_GENERATION, duration=0:00:07.454, duration_ms=7454, data={name=platform_standalone}
+timestamp=[2024-05-22 14:00:32], mode=APP_CREATION, duration=0:00:00.952, duration_ms=952, data={name=arty_echo_server, project_type=sdk, os=standalone, processor=microblaze_0, runtime=C/C++, platform=platform_standalone, application_type=application}
+timestamp=[2024-05-22 14:00:36], mode=BUILD, duration=0:00:00.788, duration_ms=788, data={name=arty_echo_server, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 14:00:36], mode=BUILD, duration=0:00:00.229, duration_ms=229, data={name=arty_echo_server_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 14:03:34], mode=PLATFORM_GENERATION, duration=0:00:07.558, duration_ms=7558, data={name=platform_standalone}
+timestamp=[2024-05-22 14:03:35], mode=BUILD, duration=0:00:00.778, duration_ms=778, data={name=arty_echo_server, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 14:03:36], mode=BUILD, duration=0:00:00.229, duration_ms=229, data={name=arty_echo_server_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 14:09:03], mode=BUILD, duration=0:00:00.229, duration_ms=229, data={name=arty_echo_server, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 14:09:04], mode=BUILD, duration=0:00:00.175, duration_ms=175, data={name=arty_echo_server_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 14:31:00], mode=BUILD, duration=0:00:00.176, duration_ms=176, data={name=arty_echo_server, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 14:31:01], mode=BUILD, duration=0:00:00.176, duration_ms=176, data={name=arty_echo_server_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 14:39:10], mode=BUILD, duration=0:00:00.178, duration_ms=178, data={name=arty_echo_server, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 14:39:11], mode=BUILD, duration=0:00:00.175, duration_ms=175, data={name=arty_echo_server_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 14:49:09], mode=WORKBENCH_START, duration=0:00:03.598, duration_ms=3598, data={}
+timestamp=[2024-05-22 14:49:09], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.130, duration_ms=130, data={}
+timestamp=[2024-05-22 14:49:10], mode=WORKBENCH_UI_INIT, duration=0:00:00.519, duration_ms=519, data={editors_count=7, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=RemoteSystemsTempFiles,arty_echo_server,arty_echo_server_system,platform_standalone}
+timestamp=[2024-05-22 14:49:56], mode=PLATFORM_GENERATION, duration=0:00:07.545, duration_ms=7545, data={name=platform_standalone}
+timestamp=[2024-05-22 14:50:00], mode=BUILD, duration=0:00:00.783, duration_ms=783, data={name=arty_echo_server, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 14:50:00], mode=BUILD, duration=0:00:00.176, duration_ms=176, data={name=arty_echo_server_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 14:56:43], mode=BUILD, duration=0:00:00.329, duration_ms=329, data={name=arty_echo_server, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 14:57:35], mode=BUILD, duration=0:00:00.175, duration_ms=175, data={name=arty_echo_server, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 14:57:36], mode=BUILD, duration=0:00:00.173, duration_ms=173, data={name=arty_echo_server_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 14:58:13], mode=BUILD, duration=0:00:00.174, duration_ms=174, data={name=arty_echo_server, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 15:04:25], mode=BUILD, duration=0:00:00.327, duration_ms=327, data={name=arty_echo_server, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 15:09:05], mode=BUILD, duration=0:00:00.174, duration_ms=174, data={name=arty_echo_server, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 15:10:41], mode=BUILD, duration=0:00:00.174, duration_ms=174, data={name=arty_echo_server, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 15:14:22], mode=BUILD, duration=0:00:00.228, duration_ms=228, data={name=arty_echo_server, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 15:15:30], mode=BUILD, duration=0:00:00.327, duration_ms=327, data={name=arty_echo_server, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 15:16:13], mode=BUILD, duration=0:00:00.226, duration_ms=226, data={name=arty_echo_server, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 15:16:28], mode=BUILD, duration=0:00:00.226, duration_ms=226, data={name=arty_echo_server, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 15:16:48], mode=BUILD, duration=0:00:00.326, duration_ms=326, data={name=arty_echo_server, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 15:17:30], mode=BUILD, duration=0:00:00.224, duration_ms=224, data={name=arty_echo_server, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 15:17:30], mode=BUILD, duration=0:00:00.174, duration_ms=174, data={name=arty_echo_server_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 15:21:55], mode=BUILD, duration=0:00:00.328, duration_ms=328, data={name=arty_echo_server, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 15:22:11], mode=BUILD, duration=0:00:00.175, duration_ms=175, data={name=arty_echo_server, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 15:22:11], mode=BUILD, duration=0:00:00.173, duration_ms=173, data={name=arty_echo_server_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 15:26:00], mode=PLATFORM_GENERATION, duration=0:00:04.202, duration_ms=4202, data={name=platform_standalone}
+timestamp=[2024-05-22 15:26:04], mode=PLATFORM_GENERATION, duration=0:00:04.042, duration_ms=4042, data={name=platform_standalone}
+timestamp=[2024-05-22 15:26:05], mode=BUILD, duration=0:00:00.176, duration_ms=176, data={name=arty_echo_server, configuration=Debug, clean_build=true}
+timestamp=[2024-05-22 15:26:05], mode=BUILD, duration=0:00:00.173, duration_ms=173, data={name=arty_echo_server_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-22 15:26:12], mode=PLATFORM_GENERATION, duration=0:00:07.455, duration_ms=7455, data={name=platform_standalone}
+timestamp=[2024-05-22 15:26:14], mode=BUILD, duration=0:00:00.781, duration_ms=781, data={name=arty_echo_server, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 15:26:14], mode=BUILD, duration=0:00:00.175, duration_ms=175, data={name=arty_echo_server_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 15:31:55], mode=APP_CREATION, duration=0:00:00.713, duration_ms=713, data={name=Hello_World, project_type=sdk, os=standalone, processor=microblaze_0, runtime=C/C++, platform=platform_standalone, application_type=application}
+timestamp=[2024-05-22 15:32:02], mode=BUILD, duration=0:00:00.381, duration_ms=381, data={name=Hello_World, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 15:32:03], mode=BUILD, duration=0:00:00.178, duration_ms=178, data={name=Hello_World_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 15:32:57], mode=BUILD, duration=0:00:00.329, duration_ms=329, data={name=Hello_World, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 15:32:58], mode=BUILD, duration=0:00:00.176, duration_ms=176, data={name=Hello_World_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 15:35:09], mode=PLATFORM_GENERATION, duration=0:00:04.195, duration_ms=4195, data={name=platform_standalone}
+timestamp=[2024-05-22 15:35:09], mode=BUILD, duration=0:00:00.177, duration_ms=177, data={name=arty_echo_server, configuration=Debug, clean_build=true}
+timestamp=[2024-05-22 15:35:09], mode=BUILD, duration=0:00:00.227, duration_ms=227, data={name=arty_echo_server_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-22 15:35:22], mode=PLATFORM_GENERATION, duration=0:00:08.076, duration_ms=8076, data={name=platform_standalone}
+timestamp=[2024-05-22 15:35:23], mode=BUILD, duration=0:00:00.327, duration_ms=327, data={name=Hello_World, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 15:35:23], mode=BUILD, duration=0:00:00.176, duration_ms=176, data={name=Hello_World_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 15:39:24], mode=BUILD, duration=0:00:00.778, duration_ms=778, data={name=arty_echo_server, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 15:39:25], mode=BUILD, duration=0:00:00.228, duration_ms=228, data={name=arty_echo_server_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 16:41:24], mode=WORKBENCH_START, duration=0:00:03.403, duration_ms=3403, data={}
+timestamp=[2024-05-22 16:41:24], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.132, duration_ms=132, data={}
+timestamp=[2024-05-22 16:41:25], mode=WORKBENCH_UI_INIT, duration=0:00:00.607, duration_ms=607, data={editors_count=1, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,arty_echo_server,arty_echo_server_system,platform_standalone}
+timestamp=[2024-05-22 20:47:26], mode=WORKBENCH_START, duration=0:00:04.256, duration_ms=4256, data={}
+timestamp=[2024-05-22 20:47:26], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.134, duration_ms=134, data={}
+timestamp=[2024-05-22 20:47:26], mode=WORKBENCH_UI_INIT, duration=0:00:00.526, duration_ms=526, data={editors_count=1, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,arty_echo_server,arty_echo_server_system,platform_standalone}
+timestamp=[2024-05-23 20:28:47], mode=WORKBENCH_START, duration=0:00:04.757, duration_ms=4757, data={}
+timestamp=[2024-05-23 20:28:47], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.146, duration_ms=146, data={}
+timestamp=[2024-05-23 20:28:47], mode=WORKBENCH_UI_INIT, duration=0:00:00.522, duration_ms=522, data={editors_count=1, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,arty_echo_server,arty_echo_server_system,platform_standalone}
+timestamp=[2024-05-23 20:29:10], mode=PLATFORM_GENERATION, duration=0:00:05.738, duration_ms=5738, data={name=platform_standalone}
+timestamp=[2024-05-23 20:29:11], mode=BUILD, duration=0:00:00.679, duration_ms=679, data={name=arty_echo_server, configuration=Debug, clean_build=false}

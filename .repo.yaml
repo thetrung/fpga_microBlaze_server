@@ -1,0 +1,436 @@
+paths:
+  /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw: {}
+os:
+  standalone:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/lib/bsp/standalone_v9_0
+  freertos10_xilinx:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/ThirdParty/bsp/freertos10_xilinx_v1_14
+driver:
+  ttcps:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/ttcps_v3_18
+  llfifo:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/llfifo_v5_6
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/llfifo_v5_5
+  gpiops:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/gpiops_v3_12
+  axicdma:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/axicdma_v4_12
+  sysmonpsu:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/sysmonpsu_v2_9
+  xxvethernet:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/xxvethernet_v1_8
+  uartpsv:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/uartpsv_v1_9
+  dfeccf:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/dfeccf_v1_6
+  dfeofdm:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/dfeofdm_v1_1
+  axiethernet:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/axiethernet_v5_16
+  csudma:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/csudma_v1_14
+  tmrctr:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/tmrctr_v4_11
+  axivdma:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/axivdma_v6_14
+  iicps:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/iicps_v3_18
+  usbpsu:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/usbpsu_v1_14
+  sysmon:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/sysmon_v7_8
+  spips:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/spips_v3_9
+  tmr_inject:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/tmr_inject_v1_6
+  hwicap:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/hwicap_v11_6
+  tmr_manager:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/tmr_manager_v1_5
+  prc:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/prc_v2_2
+  prd:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/prd_v2_2
+  canps:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/canps_v3_7
+  gpio:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_10
+  scutimer:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/scutimer_v2_5
+  axipmon:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/axipmon_v6_10
+  dfxasm:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/dfxasm_v1_2
+  nandps:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/nandps_v2_8
+  sdps:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/sdps_v4_2
+  ospipsv:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/ospipsv_v1_9
+  xadcps:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/xadcps_v2_7
+  clockps:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/clockps_v1_5
+  v_tpg:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/v_tpg_v8_5
+  dfemix:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/dfemix_v1_6
+  dmaps:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/dmaps_v2_9
+  emacps:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/emacps_v3_19
+  ipipsu:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/ipipsu_v2_14
+  v_frmbuf_rd:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/v_frmbuf_rd_v4_7
+  axis_switch:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/axis_switch_v1_6
+  axidma:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/axidma_v9_17
+  bram:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/bram_v4_9
+  mcdma:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/mcdma_v1_9
+  uartlite:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/uartlite_v3_9
+  usbps:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/usbps_v2_8
+  emc:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/emc_v4_2
+  common:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/common_v1_3
+  coresightps_dcc:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/coresightps_dcc_v1_9
+  trngpsv:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/trngpsv_v1_4
+  rtcpsu:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/rtcpsu_v1_13
+  mbox:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/mbox_v4_6
+  video_common:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/video_common_v4_14
+  trngpsx:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/trngpsx_v1_1
+  resetps:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/resetps_v1_6
+  ddrcpsu:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/ddrcpsu_v1_5
+  dfeprach:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/dfeprach_v1_6
+  cfupmc:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/cfupmc_v1_6
+  usb:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/usb_v5_6
+  trafgen:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/trafgen_v4_5
+  uartns550:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/uartns550_v3_9
+  spi:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/spi_v4_11
+  canfd:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/canfd_v2_8
+  qspips:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/qspips_v3_11
+  scugic:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/scugic_v5_2
+  cframe:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/cframe_v1_5
+  pciepsu:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/pciepsu_v1_6
+  zdma:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/zdma_v1_17
+  intc:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/intc_v3_17
+  sysmonpsv:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/sysmonpsv_v4_1
+  dfeequ:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/dfeequ_v1_5
+  qspipsu:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/qspipsu_v1_18
+  devcfg:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/devcfg_v3_8
+  uartps:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/uartps_v3_13
+  v_frmbuf_wr:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/v_frmbuf_wr_v4_7
+  nandpsu:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/nandpsu_v1_12
+  can:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/can_v3_7
+  wdtps:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/wdtps_v3_6
+  wdttb:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/wdttb_v5_7
+  vtc:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/vtc_v8_5
+  scuwdt:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/scuwdt_v2_5
+  tft:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/tft_v6_4
+  sd_fec:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/sd_fec_v1_3
+  dpdma:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/dpdma_v1_5
+  xdmapcie:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/xdmapcie_v1_7
+  aienginev2:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/aienginev2_v3_4
+  iomodule:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/iomodule_v2_15
+  emaclite:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/emaclite_v4_8
+  iic:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/iic_v3_10
+  rfdc:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/rfdc_v12_1
+  avbuf:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/avbuf_v2_6
+  dppsu:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/dppsu_v1_7
+  clk_wiz:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/clk_wiz_v1_6
+  mutex:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/XilinxProcessorIPLib/drivers/mutex_v4_7
+library:
+  xilpm:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/lib/sw_services/xilpm_v5_1
+  xilffs:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/lib/sw_services/xilffs_v5_1
+  xilflash:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/lib/sw_services/xilflash_v4_10
+  xilpuf:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/lib/sw_services/xilpuf_v2_2
+  xilloader:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/lib/sw_services/xilloader_v1_9
+  xilsecure:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/lib/sw_services/xilsecure_v5_2
+  xilnvm:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/lib/sw_services/xilnvm_v3_2
+  xiltimer:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/lib/sw_services/xiltimer_v1_3
+  xilplmi:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/lib/sw_services/xilplmi_v1_9
+  xilfpga:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/lib/sw_services/xilfpga_v6_5
+  xilrsa:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/lib/sw_services/xilrsa_v1_7
+  xilpdi:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/lib/sw_services/xilpdi_v1_8
+  xilmailbox:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/lib/sw_services/xilmailbox_v1_8
+  xilskey:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/lib/sw_services/xilskey_v7_5
+  xilsem:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/lib/sw_services/xilsem_v1_8
+  lwip213:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/ThirdParty/sw_services/lwip213_v1_1
+  openamp:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/ThirdParty/sw_services/openamp_v1_9
+  libmetal:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/ThirdParty/sw_services/libmetal_v2_6
+apps:
+  srec_spi_bootloader:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/lib/sw_apps/srec_spi_bootloader
+  versal_plm:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/lib/sw_apps/versal_plm
+  lwip_echo_server:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/lib/sw_apps/lwip_echo_server
+  empty_application:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/lib/sw_apps/empty_application
+  versal_psmfw:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/lib/sw_apps/versal_psmfw
+  ddr_self_refresh:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/lib/sw_apps/ddr_self_refresh
+  freertos_lwip_udp_perf_server:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/lib/sw_apps/freertos_lwip_udp_perf_server
+  lwip_tcp_perf_client:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/lib/sw_apps/lwip_tcp_perf_client
+  zynqmp_dram_test:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/lib/sw_apps/zynqmp_dram_test
+  freertos_hello_world:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/lib/sw_apps/freertos_hello_world
+  rsa_auth_app:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/lib/sw_apps/rsa_auth_app
+  openamp_rpc_demo:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/lib/sw_apps/openamp_rpc_demo
+  lwip_tcp_perf_server:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/lib/sw_apps/lwip_tcp_perf_server
+  freertos_lwip_echo_server:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/lib/sw_apps/freertos_lwip_echo_server
+  lwip_udp_perf_client:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/lib/sw_apps/lwip_udp_perf_client
+  zynqmp_pmufw:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/lib/sw_apps/zynqmp_pmufw
+  libmetal_echo_demo:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/lib/sw_apps/libmetal_echo_demo
+  lwip_udp_perf_server:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/lib/sw_apps/lwip_udp_perf_server
+  freertos_lwip_tcp_perf_server:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/lib/sw_apps/freertos_lwip_tcp_perf_server
+  peripheral_tests:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/lib/sw_apps/peripheral_tests
+  zynq_dram_test:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/lib/sw_apps/zynq_dram_test
+  srec_bootloader:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/lib/sw_apps/srec_bootloader
+  openamp_echo_test:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/lib/sw_apps/openamp_echo_test
+  freertos_lwip_tcp_perf_client:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/lib/sw_apps/freertos_lwip_tcp_perf_client
+  hello_world:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/lib/sw_apps/hello_world
+  openamp_matrix_multiply:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/lib/sw_apps/openamp_matrix_multiply
+  zynqmp_fsbl:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/lib/sw_apps/zynqmp_fsbl
+  zynq_fsbl:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/lib/sw_apps/zynq_fsbl
+  dhrystone:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/lib/sw_apps/dhrystone
+  memory_tests:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/lib/sw_apps/memory_tests
+  freertos_lwip_udp_perf_client:
+    path:
+    - /home/deulamco/AMD/Vitis/2023.2/data/embeddedsw/lib/sw_apps/freertos_lwip_udp_perf_client

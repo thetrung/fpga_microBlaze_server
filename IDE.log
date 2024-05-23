@@ -1,0 +1,574 @@
+13:58:41 DEBUG : Logs will be stored at '/home/deulamco/Documents/FPGA/echo_server/IDE.log'.
+13:58:41 INFO  : Launching XSCT server: xsct -n  -interactive /home/deulamco/Documents/FPGA/echo_server/temp_xsdb_launch_script.tcl
+13:58:41 INFO  : Registering command handlers for Vitis TCF services
+13:58:41 INFO  : Platform repository initialization has completed.
+13:58:42 INFO  : XSCT server has started successfully.
+13:58:42 INFO  : Successfully done setting XSCT server connection channel  
+13:58:42 INFO  : Successfully done query RDI_DATADIR 
+13:58:42 INFO  : Successfully done setting workspace for the tool. 
+13:58:43 INFO  : plnx-install-location is set to ''
+13:59:34 INFO  : Result from executing command 'getProjects': platform_standalone
+13:59:34 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202220_1|/home/deulamco/AMD_2022.2/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|/home/deulamco/AMD_2022.2/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|/home/deulamco/AMD_2022.2/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+13:59:39 INFO  : Result from executing command 'getProjects': platform_standalone
+13:59:39 INFO  : Result from executing command 'getPlatforms': platform_standalone|/home/deulamco/Documents/FPGA/echo_server/platform_standalone/export/platform_standalone/platform_standalone.xpfm;xilinx_zcu102_base_202220_1|/home/deulamco/AMD_2022.2/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|/home/deulamco/AMD_2022.2/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|/home/deulamco/AMD_2022.2/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+14:00:01 INFO  : Result from executing command 'getProjects': platform_standalone
+14:00:01 INFO  : Result from executing command 'getPlatforms': platform_standalone|/home/deulamco/Documents/FPGA/echo_server/platform_standalone/export/platform_standalone/platform_standalone.xpfm;xilinx_zcu102_base_202220_1|/home/deulamco/AMD_2022.2/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|/home/deulamco/AMD_2022.2/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|/home/deulamco/AMD_2022.2/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+14:00:35 INFO  : Checking for BSP changes to sync application flags for project 'arty_echo_server'...
+14:03:31 INFO  : Result from executing command 'getProjects': platform_standalone
+14:03:31 INFO  : Result from executing command 'getPlatforms': platform_standalone|/home/deulamco/Documents/FPGA/echo_server/platform_standalone/export/platform_standalone/platform_standalone.xpfm;xilinx_zcu102_base_202220_1|/home/deulamco/AMD_2022.2/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|/home/deulamco/AMD_2022.2/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|/home/deulamco/AMD_2022.2/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+14:03:34 INFO  : Checking for BSP changes to sync application flags for project 'arty_echo_server'...
+14:03:34 INFO  : Updating application flags with new BSP settings...
+14:03:34 INFO  : Successfully updated application flags for project arty_echo_server.
+14:07:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:07:39 INFO  : Bit file '/home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit' is generated.
+14:07:39 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:07:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2CBF7A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A2CBF7A-0362d093-0"}' command is executed.
+14:07:41 INFO  : Device configured successfully with "/home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit"
+14:09:03 INFO  : Checking for BSP changes to sync application flags for project 'arty_echo_server'...
+14:31:00 INFO  : Checking for BSP changes to sync application flags for project 'arty_echo_server'...
+14:39:10 INFO  : Checking for BSP changes to sync application flags for project 'arty_echo_server'...
+14:41:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:41:51 INFO  : Jtag cable 'Digilent Arty 210319A2CBF7A' is selected.
+14:41:51 INFO  : 'jtag frequency' command is executed.
+14:41:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2CBF7A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A2CBF7A-0362d093-0"}' command is executed.
+14:41:52 INFO  : Device configured successfully with "/home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit"
+14:41:52 INFO  : Context for processor 'microblaze_0' is selected.
+14:41:52 INFO  : Hardware design and registers information is loaded from '/home/deulamco/Documents/FPGA/echo_server/platform_standalone/export/platform_standalone/hw/system_wrapper.xsa'.
+14:41:52 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:41:52 INFO  : Context for processor 'microblaze_0' is selected.
+14:41:52 INFO  : System reset is completed.
+14:41:55 INFO  : 'after 3000' command is executed.
+14:41:55 INFO  : Context for processor 'microblaze_0' is selected.
+14:41:56 ERROR : Memory write error at 0x80002400. MicroBlaze instruction insert overrun
+14:41:56 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2CBF7A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A2CBF7A-0362d093-0"}
+fpga -file /home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/deulamco/Documents/FPGA/echo_server/platform_standalone/export/platform_standalone/hw/system_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/deulamco/Documents/FPGA/echo_server/arty_echo_server/Debug/arty_echo_server.elf
+----------------End of Script----------------
+
+14:41:56 ERROR : Memory write error at 0x80002400. MicroBlaze instruction insert overrun
+14:42:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:42:35 INFO  : Bit file '/home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit' is generated.
+14:42:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:42:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2CBF7A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A2CBF7A-0362d093-0"}' command is executed.
+14:42:37 INFO  : Device configured successfully with "/home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit"
+14:42:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:42:49 INFO  : Jtag cable 'Digilent Arty 210319A2CBF7A' is selected.
+14:42:49 INFO  : 'jtag frequency' command is executed.
+14:42:49 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2CBF7A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A2CBF7A-0362d093-0"}' command is executed.
+14:42:50 INFO  : Device configured successfully with "/home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit"
+14:42:50 INFO  : Context for processor 'microblaze_0' is selected.
+14:42:50 INFO  : Hardware design and registers information is loaded from '/home/deulamco/Documents/FPGA/echo_server/platform_standalone/export/platform_standalone/hw/system_wrapper.xsa'.
+14:42:50 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:42:51 INFO  : Context for processor 'microblaze_0' is selected.
+14:42:51 INFO  : System reset is completed.
+14:42:54 INFO  : 'after 3000' command is executed.
+14:42:54 INFO  : Context for processor 'microblaze_0' is selected.
+14:42:54 ERROR : Memory write error at 0x80003200. MicroBlaze instruction insert overrun
+14:42:54 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2CBF7A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A2CBF7A-0362d093-0"}
+fpga -file /home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/deulamco/Documents/FPGA/echo_server/platform_standalone/export/platform_standalone/hw/system_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/deulamco/Documents/FPGA/echo_server/arty_echo_server/Debug/arty_echo_server.elf
+----------------End of Script----------------
+
+14:42:54 ERROR : Memory write error at 0x80003200. MicroBlaze instruction insert overrun
+14:43:39 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:43:39 INFO  : Jtag cable 'Digilent Arty 210319A2CBF7A' is selected.
+14:43:39 INFO  : 'jtag frequency' command is executed.
+14:43:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2CBF7A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A2CBF7A-0362d093-0"}' command is executed.
+14:43:40 INFO  : Device configured successfully with "/home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit"
+14:43:40 INFO  : Context for processor 'microblaze_0' is selected.
+14:43:40 INFO  : Hardware design and registers information is loaded from '/home/deulamco/Documents/FPGA/echo_server/platform_standalone/export/platform_standalone/hw/system_wrapper.xsa'.
+14:43:40 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:43:40 INFO  : Context for processor 'microblaze_0' is selected.
+14:43:40 INFO  : System reset is completed.
+14:43:43 INFO  : 'after 3000' command is executed.
+14:43:43 INFO  : Context for processor 'microblaze_0' is selected.
+14:43:44 INFO  : The application '/home/deulamco/Documents/FPGA/echo_server/arty_echo_server/Debug/arty_echo_server.elf' is downloaded to processor 'microblaze_0'.
+14:43:44 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2CBF7A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A2CBF7A-0362d093-0"}
+fpga -file /home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/deulamco/Documents/FPGA/echo_server/platform_standalone/export/platform_standalone/hw/system_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/deulamco/Documents/FPGA/echo_server/arty_echo_server/Debug/arty_echo_server.elf
+----------------End of Script----------------
+
+14:43:44 INFO  : Context for processor 'microblaze_0' is selected.
+14:43:44 INFO  : 'con' command is executed.
+14:43:44 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+14:43:44 INFO  : Launch script is exported to file '/home/deulamco/Documents/FPGA/echo_server/arty_echo_server_system/_ide/scripts/systemdebugger_arty_echo_server_system_standalone.tcl'
+14:46:37 INFO  : Disconnected from the channel tcfchan#4.
+14:49:08 DEBUG : Logs will be stored at '/home/deulamco/Documents/FPGA/echo_server/IDE.log'.
+14:49:08 INFO  : Launching XSCT server: xsct -n  -interactive /home/deulamco/Documents/FPGA/echo_server/temp_xsdb_launch_script.tcl
+14:49:09 INFO  : XSCT server has started successfully.
+14:49:09 INFO  : plnx-install-location is set to ''
+14:49:09 INFO  : Successfully done setting XSCT server connection channel  
+14:49:09 INFO  : Successfully done query RDI_DATADIR 
+14:49:09 INFO  : Successfully done setting workspace for the tool. 
+14:49:09 INFO  : Platform repository initialization has completed.
+14:49:10 INFO  : Registering command handlers for Vitis TCF services
+14:49:53 INFO  : Result from executing command 'getProjects': platform_standalone
+14:49:53 INFO  : Result from executing command 'getPlatforms': platform_standalone|/home/deulamco/Documents/FPGA/echo_server/platform_standalone/export/platform_standalone/platform_standalone.xpfm;xilinx_zcu102_base_202220_1|/home/deulamco/AMD_2022.2/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|/home/deulamco/AMD_2022.2/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|/home/deulamco/AMD_2022.2/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+14:49:59 INFO  : Checking for BSP changes to sync application flags for project 'arty_echo_server'...
+14:49:59 INFO  : Updating application flags with new BSP settings...
+14:49:59 INFO  : Successfully updated application flags for project arty_echo_server.
+14:50:25 INFO  : Bit file '/home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit' is generated.
+14:50:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:50:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2CBF7A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A2CBF7A-0362d093-0"}' command is executed.
+14:50:26 INFO  : Device configured successfully with "/home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit"
+14:56:43 INFO  : Checking for BSP changes to sync application flags for project 'arty_echo_server'...
+14:57:35 INFO  : Checking for BSP changes to sync application flags for project 'arty_echo_server'...
+14:58:12 INFO  : Checking for BSP changes to sync application flags for project 'arty_echo_server'...
+14:58:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:58:18 INFO  : Jtag cable 'Digilent Arty 210319A2CBF7A' is selected.
+14:58:18 INFO  : 'jtag frequency' command is executed.
+14:58:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2CBF7A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A2CBF7A-0362d093-0"}' command is executed.
+14:58:20 INFO  : Device configured successfully with "/home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit"
+14:58:20 INFO  : Context for processor 'microblaze_0' is selected.
+14:58:20 INFO  : Hardware design and registers information is loaded from '/home/deulamco/Documents/FPGA/echo_server/platform_standalone/export/platform_standalone/hw/system_wrapper.xsa'.
+14:58:20 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:58:20 INFO  : Context for processor 'microblaze_0' is selected.
+14:58:20 INFO  : System reset is completed.
+14:58:23 INFO  : 'after 3000' command is executed.
+14:58:23 INFO  : Context for processor 'microblaze_0' is selected.
+14:58:23 ERROR : Memory write error at 0x80001000. MicroBlaze instruction insert overrun
+14:58:23 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2CBF7A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A2CBF7A-0362d093-0"}
+fpga -file /home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/deulamco/Documents/FPGA/echo_server/platform_standalone/export/platform_standalone/hw/system_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/deulamco/Documents/FPGA/echo_server/arty_echo_server/Debug/arty_echo_server.elf
+----------------End of Script----------------
+
+14:58:23 ERROR : Memory write error at 0x80001000. MicroBlaze instruction insert overrun
+14:58:44 INFO  : Bit file '/home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit' is generated.
+14:58:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:58:44 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2CBF7A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A2CBF7A-0362d093-0"}' command is executed.
+14:58:45 INFO  : Device configured successfully with "/home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit"
+14:59:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:59:06 INFO  : Jtag cable 'Digilent Arty 210319A2CBF7A' is selected.
+14:59:06 INFO  : 'jtag frequency' command is executed.
+14:59:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2CBF7A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A2CBF7A-0362d093-0"}' command is executed.
+14:59:07 INFO  : Device configured successfully with "/home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit"
+14:59:07 INFO  : Context for processor 'microblaze_0' is selected.
+14:59:07 INFO  : Hardware design and registers information is loaded from '/home/deulamco/Documents/FPGA/echo_server/platform_standalone/export/platform_standalone/hw/system_wrapper.xsa'.
+14:59:07 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:59:07 INFO  : Context for processor 'microblaze_0' is selected.
+14:59:07 INFO  : System reset is completed.
+14:59:10 INFO  : 'after 3000' command is executed.
+14:59:10 INFO  : Context for processor 'microblaze_0' is selected.
+14:59:10 ERROR : Memory write error at 0x80002600. MicroBlaze instruction insert overrun
+14:59:10 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2CBF7A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A2CBF7A-0362d093-0"}
+fpga -file /home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/deulamco/Documents/FPGA/echo_server/platform_standalone/export/platform_standalone/hw/system_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/deulamco/Documents/FPGA/echo_server/arty_echo_server/Debug/arty_echo_server.elf
+----------------End of Script----------------
+
+14:59:10 ERROR : Memory write error at 0x80002600. MicroBlaze instruction insert overrun
+14:59:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:59:22 INFO  : Jtag cable 'Digilent Arty 210319A2CBF7A' is selected.
+14:59:22 INFO  : 'jtag frequency' command is executed.
+14:59:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2CBF7A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A2CBF7A-0362d093-0"}' command is executed.
+14:59:23 INFO  : Device configured successfully with "/home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit"
+14:59:23 INFO  : Context for processor 'microblaze_0' is selected.
+14:59:23 INFO  : Hardware design and registers information is loaded from '/home/deulamco/Documents/FPGA/echo_server/platform_standalone/export/platform_standalone/hw/system_wrapper.xsa'.
+14:59:23 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:59:23 INFO  : Context for processor 'microblaze_0' is selected.
+14:59:23 INFO  : System reset is completed.
+14:59:26 INFO  : 'after 3000' command is executed.
+14:59:26 INFO  : Context for processor 'microblaze_0' is selected.
+14:59:26 ERROR : Memory write error at 0x80002400. MicroBlaze instruction insert overrun
+14:59:26 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2CBF7A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A2CBF7A-0362d093-0"}
+fpga -file /home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/deulamco/Documents/FPGA/echo_server/platform_standalone/export/platform_standalone/hw/system_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/deulamco/Documents/FPGA/echo_server/arty_echo_server/Debug/arty_echo_server.elf
+----------------End of Script----------------
+
+14:59:26 ERROR : Memory write error at 0x80002400. MicroBlaze instruction insert overrun
+15:04:24 INFO  : Checking for BSP changes to sync application flags for project 'arty_echo_server'...
+15:04:37 INFO  : Bit file '/home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit' is generated.
+15:04:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:04:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2CBF7A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A2CBF7A-0362d093-0"}' command is executed.
+15:04:38 INFO  : Device configured successfully with "/home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit"
+15:09:05 INFO  : Checking for BSP changes to sync application flags for project 'arty_echo_server'...
+15:10:41 INFO  : Checking for BSP changes to sync application flags for project 'arty_echo_server'...
+15:10:52 INFO  : Bit file '/home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit' is generated.
+15:10:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:10:52 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2CBF7A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A2CBF7A-0362d093-0"}' command is executed.
+15:10:54 INFO  : Device configured successfully with "/home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit"
+15:14:22 INFO  : Checking for BSP changes to sync application flags for project 'arty_echo_server'...
+15:14:33 INFO  : Bit file '/home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit' is generated.
+15:14:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:14:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2CBF7A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A2CBF7A-0362d093-0"}' command is executed.
+15:14:34 INFO  : Device configured successfully with "/home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit"
+15:15:30 INFO  : Checking for BSP changes to sync application flags for project 'arty_echo_server'...
+15:15:42 INFO  : Bit file '/home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit' is generated.
+15:15:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:15:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2CBF7A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A2CBF7A-0362d093-0"}' command is executed.
+15:15:43 INFO  : Device configured successfully with "/home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit"
+15:16:12 INFO  : Checking for BSP changes to sync application flags for project 'arty_echo_server'...
+15:16:27 INFO  : Checking for BSP changes to sync application flags for project 'arty_echo_server'...
+15:16:47 INFO  : Checking for BSP changes to sync application flags for project 'arty_echo_server'...
+15:16:59 INFO  : Bit file '/home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit' is generated.
+15:16:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:16:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2CBF7A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A2CBF7A-0362d093-0"}' command is executed.
+15:17:00 INFO  : Device configured successfully with "/home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit"
+15:17:29 INFO  : Checking for BSP changes to sync application flags for project 'arty_echo_server'...
+15:17:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:17:41 INFO  : Jtag cable 'Digilent Arty 210319A2CBF7A' is selected.
+15:17:41 INFO  : 'jtag frequency' command is executed.
+15:17:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2CBF7A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A2CBF7A-0362d093-0"}' command is executed.
+15:17:43 INFO  : Device configured successfully with "/home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit"
+15:17:43 INFO  : Context for processor 'microblaze_0' is selected.
+15:17:43 INFO  : Hardware design and registers information is loaded from '/home/deulamco/Documents/FPGA/echo_server/platform_standalone/export/platform_standalone/hw/system_wrapper.xsa'.
+15:17:43 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:17:43 INFO  : Context for processor 'microblaze_0' is selected.
+15:17:43 INFO  : System reset is completed.
+15:17:46 INFO  : 'after 3000' command is executed.
+15:17:46 INFO  : Context for processor 'microblaze_0' is selected.
+15:17:46 ERROR : Memory write error at 0x8000E600. MicroBlaze instruction insert overrun
+15:17:46 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2CBF7A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A2CBF7A-0362d093-0"}
+fpga -file /home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/deulamco/Documents/FPGA/echo_server/platform_standalone/export/platform_standalone/hw/system_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/deulamco/Documents/FPGA/echo_server/arty_echo_server/Debug/arty_echo_server.elf
+----------------End of Script----------------
+
+15:17:46 ERROR : Memory write error at 0x8000E600. MicroBlaze instruction insert overrun
+15:17:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:17:57 INFO  : Jtag cable 'Digilent Arty 210319A2CBF7A' is selected.
+15:17:57 INFO  : 'jtag frequency' command is executed.
+15:17:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2CBF7A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A2CBF7A-0362d093-0"}' command is executed.
+15:17:58 INFO  : Device configured successfully with "/home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit"
+15:17:58 INFO  : Context for processor 'microblaze_0' is selected.
+15:17:58 INFO  : Hardware design and registers information is loaded from '/home/deulamco/Documents/FPGA/echo_server/platform_standalone/export/platform_standalone/hw/system_wrapper.xsa'.
+15:17:58 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:17:58 INFO  : Context for processor 'microblaze_0' is selected.
+15:17:58 INFO  : System reset is completed.
+15:18:01 INFO  : 'after 3000' command is executed.
+15:18:01 INFO  : Context for processor 'microblaze_0' is selected.
+15:18:01 INFO  : The application '/home/deulamco/Documents/FPGA/echo_server/arty_echo_server/Debug/arty_echo_server.elf' is downloaded to processor 'microblaze_0'.
+15:18:01 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2CBF7A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A2CBF7A-0362d093-0"}
+fpga -file /home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/deulamco/Documents/FPGA/echo_server/platform_standalone/export/platform_standalone/hw/system_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/deulamco/Documents/FPGA/echo_server/arty_echo_server/Debug/arty_echo_server.elf
+----------------End of Script----------------
+
+15:18:01 INFO  : Context for processor 'microblaze_0' is selected.
+15:18:02 INFO  : 'con' command is executed.
+15:18:02 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:18:02 INFO  : Launch script is exported to file '/home/deulamco/Documents/FPGA/echo_server/arty_echo_server_system/_ide/scripts/systemdebugger_arty_echo_server_system_standalone.tcl'
+15:21:01 INFO  : Disconnected from the channel tcfchan#2.
+15:21:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:21:01 INFO  : Jtag cable 'Digilent Arty 210319A2CBF7A' is selected.
+15:21:01 INFO  : 'jtag frequency' command is executed.
+15:21:01 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2CBF7A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A2CBF7A-0362d093-0"}' command is executed.
+15:21:02 INFO  : Device configured successfully with "/home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit"
+15:21:02 INFO  : Context for processor 'microblaze_0' is selected.
+15:21:02 INFO  : Hardware design and registers information is loaded from '/home/deulamco/Documents/FPGA/echo_server/platform_standalone/export/platform_standalone/hw/system_wrapper.xsa'.
+15:21:02 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:21:02 INFO  : Context for processor 'microblaze_0' is selected.
+15:21:02 INFO  : System reset is completed.
+15:21:05 INFO  : 'after 3000' command is executed.
+15:21:05 INFO  : Context for processor 'microblaze_0' is selected.
+15:21:06 INFO  : The application '/home/deulamco/Documents/FPGA/echo_server/arty_echo_server/Debug/arty_echo_server.elf' is downloaded to processor 'microblaze_0'.
+15:21:06 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2CBF7A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A2CBF7A-0362d093-0"}
+fpga -file /home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/deulamco/Documents/FPGA/echo_server/platform_standalone/export/platform_standalone/hw/system_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/deulamco/Documents/FPGA/echo_server/arty_echo_server/Debug/arty_echo_server.elf
+----------------End of Script----------------
+
+15:21:06 INFO  : Context for processor 'microblaze_0' is selected.
+15:21:06 INFO  : 'con' command is executed.
+15:21:06 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:21:06 INFO  : Launch script is exported to file '/home/deulamco/Documents/FPGA/echo_server/arty_echo_server_system/_ide/scripts/systemdebugger_arty_echo_server_system_standalone.tcl'
+15:21:54 INFO  : Checking for BSP changes to sync application flags for project 'arty_echo_server'...
+15:22:05 INFO  : Disconnected from the channel tcfchan#3.
+15:22:11 INFO  : Checking for BSP changes to sync application flags for project 'arty_echo_server'...
+15:22:21 INFO  : Bit file '/home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit' is generated.
+15:22:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:22:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2CBF7A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A2CBF7A-0362d093-0"}' command is executed.
+15:22:22 INFO  : Device configured successfully with "/home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit"
+15:23:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:23:05 INFO  : Jtag cable 'Digilent Arty 210319A2CBF7A' is selected.
+15:23:05 INFO  : 'jtag frequency' command is executed.
+15:23:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2CBF7A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A2CBF7A-0362d093-0"}' command is executed.
+15:23:06 INFO  : Device configured successfully with "/home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit"
+15:23:06 INFO  : Context for processor 'microblaze_0' is selected.
+15:23:06 INFO  : Hardware design and registers information is loaded from '/home/deulamco/Documents/FPGA/echo_server/platform_standalone/export/platform_standalone/hw/system_wrapper.xsa'.
+15:23:06 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:23:06 INFO  : Context for processor 'microblaze_0' is selected.
+15:23:06 INFO  : System reset is completed.
+15:23:09 INFO  : 'after 3000' command is executed.
+15:23:09 INFO  : Context for processor 'microblaze_0' is selected.
+15:23:10 INFO  : The application '/home/deulamco/Documents/FPGA/echo_server/arty_echo_server/Debug/arty_echo_server.elf' is downloaded to processor 'microblaze_0'.
+15:23:10 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2CBF7A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A2CBF7A-0362d093-0"}
+fpga -file /home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/deulamco/Documents/FPGA/echo_server/platform_standalone/export/platform_standalone/hw/system_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/deulamco/Documents/FPGA/echo_server/arty_echo_server/Debug/arty_echo_server.elf
+----------------End of Script----------------
+
+15:23:10 INFO  : Context for processor 'microblaze_0' is selected.
+15:23:10 INFO  : 'con' command is executed.
+15:23:10 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:23:10 INFO  : Launch script is exported to file '/home/deulamco/Documents/FPGA/echo_server/arty_echo_server_system/_ide/scripts/systemdebugger_arty_echo_server_system_standalone.tcl'
+15:24:12 INFO  : Disconnected from the channel tcfchan#4.
+15:24:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:24:19 INFO  : Jtag cable 'Digilent Arty 210319A2CBF7A' is selected.
+15:24:19 INFO  : 'jtag frequency' command is executed.
+15:24:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2CBF7A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A2CBF7A-0362d093-0"}' command is executed.
+15:24:21 INFO  : Device configured successfully with "/home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit"
+15:24:21 INFO  : Context for processor 'microblaze_0' is selected.
+15:24:21 INFO  : Hardware design and registers information is loaded from '/home/deulamco/Documents/FPGA/echo_server/platform_standalone/export/platform_standalone/hw/system_wrapper.xsa'.
+15:24:21 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:24:21 INFO  : Context for processor 'microblaze_0' is selected.
+15:24:21 INFO  : System reset is completed.
+15:24:24 INFO  : 'after 3000' command is executed.
+15:24:24 INFO  : Context for processor 'microblaze_0' is selected.
+15:24:24 INFO  : The application '/home/deulamco/Documents/FPGA/echo_server/arty_echo_server/Debug/arty_echo_server.elf' is downloaded to processor 'microblaze_0'.
+15:24:24 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2CBF7A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A2CBF7A-0362d093-0"}
+fpga -file /home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/deulamco/Documents/FPGA/echo_server/platform_standalone/export/platform_standalone/hw/system_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/deulamco/Documents/FPGA/echo_server/arty_echo_server/Debug/arty_echo_server.elf
+----------------End of Script----------------
+
+15:24:24 INFO  : Context for processor 'microblaze_0' is selected.
+15:24:24 INFO  : 'con' command is executed.
+15:24:24 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:24:24 INFO  : Launch script is exported to file '/home/deulamco/Documents/FPGA/echo_server/arty_echo_server_system/_ide/scripts/debugger_arty_echo_server-default.tcl'
+15:24:43 INFO  : Disconnected from the channel tcfchan#5.
+15:24:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:24:44 INFO  : Jtag cable 'Digilent Arty 210319A2CBF7A' is selected.
+15:24:44 INFO  : 'jtag frequency' command is executed.
+15:24:44 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2CBF7A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A2CBF7A-0362d093-0"}' command is executed.
+15:24:45 INFO  : Device configured successfully with "/home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit"
+15:24:45 INFO  : Context for processor 'microblaze_0' is selected.
+15:24:45 INFO  : Hardware design and registers information is loaded from '/home/deulamco/Documents/FPGA/echo_server/platform_standalone/export/platform_standalone/hw/system_wrapper.xsa'.
+15:24:45 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:24:45 INFO  : Context for processor 'microblaze_0' is selected.
+15:24:45 INFO  : System reset is completed.
+15:24:48 INFO  : 'after 3000' command is executed.
+15:24:48 INFO  : Context for processor 'microblaze_0' is selected.
+15:24:48 ERROR : Memory write error at 0x80002000. MicroBlaze instruction insert overrun
+15:24:48 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2CBF7A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A2CBF7A-0362d093-0"}
+fpga -file /home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/deulamco/Documents/FPGA/echo_server/platform_standalone/export/platform_standalone/hw/system_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/deulamco/Documents/FPGA/echo_server/arty_echo_server/Debug/arty_echo_server.elf
+----------------End of Script----------------
+
+15:24:48 ERROR : Memory write error at 0x80002000. MicroBlaze instruction insert overrun
+15:25:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:25:03 INFO  : Jtag cable 'Digilent Arty 210319A2CBF7A' is selected.
+15:25:03 INFO  : 'jtag frequency' command is executed.
+15:25:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2CBF7A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A2CBF7A-0362d093-0"}' command is executed.
+15:25:05 INFO  : Device configured successfully with "/home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit"
+15:25:05 INFO  : Context for processor 'microblaze_0' is selected.
+15:25:05 INFO  : Hardware design and registers information is loaded from '/home/deulamco/Documents/FPGA/echo_server/platform_standalone/export/platform_standalone/hw/system_wrapper.xsa'.
+15:25:05 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:25:05 INFO  : Context for processor 'microblaze_0' is selected.
+15:25:05 INFO  : System reset is completed.
+15:25:08 INFO  : 'after 3000' command is executed.
+15:25:08 INFO  : Context for processor 'microblaze_0' is selected.
+15:25:08 ERROR : Memory write error at 0x80006600. MicroBlaze instruction insert overrun
+15:25:08 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2CBF7A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A2CBF7A-0362d093-0"}
+fpga -file /home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw /home/deulamco/Documents/FPGA/echo_server/platform_standalone/export/platform_standalone/hw/system_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow /home/deulamco/Documents/FPGA/echo_server/arty_echo_server/Debug/arty_echo_server.elf
+----------------End of Script----------------
+
+15:25:08 ERROR : Memory write error at 0x80006600. MicroBlaze instruction insert overrun
+15:25:57 INFO  : Result from executing command 'removePlatformRepo': 
+15:26:01 ERROR : Error from executing command 'removePlatformRepo': ERROR: No valid directory exists at given path.
+15:26:09 INFO  : Result from executing command 'getProjects': platform_standalone
+15:26:09 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202220_1|/home/deulamco/AMD_2022.2/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|/home/deulamco/AMD_2022.2/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|/home/deulamco/AMD_2022.2/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+15:26:13 INFO  : Checking for BSP changes to sync application flags for project 'arty_echo_server'...
+15:26:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:26:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:27:09 INFO  : Bit file '/home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit' is generated.
+15:27:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:27:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2CBF7A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A2CBF7A-0362d093-0"}' command is executed.
+15:27:10 INFO  : Device configured successfully with "/home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit"
+15:28:33 INFO  : Build configuration of 'arty_echo_server' is updated to 'Release'
+15:28:36 INFO  : Build configuration of 'arty_echo_server' is updated to 'Debug'
+15:29:03 INFO  : Bit file '/home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit' is generated.
+15:29:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:29:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2CBF7A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A2CBF7A-0362d093-0"}' command is executed.
+15:29:04 INFO  : Device configured successfully with "/home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit"
+15:32:02 INFO  : Checking for BSP changes to sync application flags for project 'Hello_World'...
+15:32:15 INFO  : Bit file '/home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit' is generated.
+15:32:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:32:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2CBF7A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A2CBF7A-0362d093-0"}' command is executed.
+15:32:17 INFO  : Device configured successfully with "/home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit"
+15:32:57 INFO  : Checking for BSP changes to sync application flags for project 'Hello_World'...
+15:33:10 INFO  : Bit file '/home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit' is generated.
+15:33:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:33:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2CBF7A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A2CBF7A-0362d093-0"}' command is executed.
+15:33:11 INFO  : Device configured successfully with "/home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit"
+15:35:06 INFO  : Result from executing command 'removePlatformRepo': 
+15:35:19 INFO  : Result from executing command 'getProjects': platform_standalone
+15:35:19 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202220_1|/home/deulamco/AMD_2022.2/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|/home/deulamco/AMD_2022.2/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|/home/deulamco/AMD_2022.2/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+15:35:22 INFO  : Checking for BSP changes to sync application flags for project 'Hello_World'...
+15:35:39 INFO  : Bit file '/home/deulamco/Documents/FPGA/echo_server/Hello_World/_ide/bitstream/download.bit' is generated.
+15:35:39 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:35:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2CBF7A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A2CBF7A-0362d093-0"}' command is executed.
+15:35:40 INFO  : Device configured successfully with "/home/deulamco/Documents/FPGA/echo_server/Hello_World/_ide/bitstream/download.bit"
+15:36:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:36:18 INFO  : Bit file '/home/deulamco/Documents/FPGA/echo_server/Hello_World/_ide/bitstream/download.bit' is generated.
+15:36:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:36:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2CBF7A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A2CBF7A-0362d093-0"}' command is executed.
+15:36:20 INFO  : Device configured successfully with "/home/deulamco/Documents/FPGA/echo_server/Hello_World/_ide/bitstream/download.bit"
+15:39:23 INFO  : Checking for BSP changes to sync application flags for project 'arty_echo_server'...
+16:41:23 DEBUG : Logs will be stored at '/home/deulamco/Documents/FPGA/echo_server/IDE.log'.
+16:41:23 INFO  : Launching XSCT server: xsct -n  -interactive /home/deulamco/Documents/FPGA/echo_server/temp_xsdb_launch_script.tcl
+16:41:24 INFO  : Platform repository initialization has completed.
+16:41:24 INFO  : XSCT server has started successfully.
+16:41:24 INFO  : Successfully done setting XSCT server connection channel  
+16:41:24 INFO  : plnx-install-location is set to ''
+16:41:24 INFO  : Successfully done query RDI_DATADIR 
+16:41:24 INFO  : Successfully done setting workspace for the tool. 
+16:41:24 INFO  : Registering command handlers for Vitis TCF services
+20:47:24 DEBUG : Logs will be stored at '/home/deulamco/Documents/FPGA/echo_server/IDE.log'.
+20:47:24 INFO  : Launching XSCT server: xsct -n  -interactive /home/deulamco/Documents/FPGA/echo_server/temp_xsdb_launch_script.tcl
+20:47:25 INFO  : XSCT server has started successfully.
+20:47:25 INFO  : Successfully done setting XSCT server connection channel  
+20:47:25 INFO  : plnx-install-location is set to ''
+20:47:25 INFO  : Successfully done setting workspace for the tool. 
+20:47:26 INFO  : Successfully done query RDI_DATADIR 
+20:47:26 INFO  : Platform repository initialization has completed.
+20:47:26 INFO  : Registering command handlers for Vitis TCF services
+20:47:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:48:09 INFO  : Bit file '/home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit' is generated.
+20:48:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:48:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2CBF7A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A2CBF7A-0362d093-0"}' command is executed.
+20:48:10 INFO  : Device configured successfully with "/home/deulamco/Documents/FPGA/echo_server/arty_echo_server/_ide/bitstream/download.bit"
+20:28:45 DEBUG : Logs will be stored at '/home/deulamco/Documents/FPGA/echo_server/IDE.log'.
+20:28:45 INFO  : Launching XSCT server: xsct -n  -interactive /home/deulamco/Documents/FPGA/echo_server/temp_xsdb_launch_script.tcl
+20:28:46 INFO  : XSCT server has started successfully.
+20:28:46 INFO  : plnx-install-location is set to ''
+20:28:46 INFO  : Successfully done setting XSCT server connection channel  
+20:28:46 INFO  : Successfully done setting workspace for the tool. 
+20:28:47 INFO  : Platform repository initialization has completed.
+20:28:47 INFO  : Registering command handlers for Vitis TCF services
+20:28:47 INFO  : Successfully done query RDI_DATADIR 
+20:29:06 INFO  : Result from executing command 'getProjects': platform_standalone
+20:29:06 INFO  : Result from executing command 'getPlatforms': platform_standalone|/home/deulamco/Documents/FPGA/echo_server/platform_standalone/export/platform_standalone/platform_standalone.xpfm;xilinx_zcu102_base_202220_1|/home/deulamco/AMD_2022.2/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|/home/deulamco/AMD_2022.2/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|/home/deulamco/AMD_2022.2/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+20:29:10 INFO  : Checking for BSP changes to sync application flags for project 'arty_echo_server'...

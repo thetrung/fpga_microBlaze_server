@@ -1,0 +1,26 @@
+15:35:22 **** Incremental Build of configuration Debug for project Hello_World ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I/home/deulamco/Documents/FPGA/echo_server/platform_standalone/export/platform_standalone/sw/platform_standalone/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building file: ../src/platform.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I/home/deulamco/Documents/FPGA/echo_server/platform_standalone/export/platform_standalone/sw/platform_standalone/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: Hello_World.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L/home/deulamco/Documents/FPGA/echo_server/platform_standalone/export/platform_standalone/sw/platform_standalone/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Hello_World.elf" ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group -Wl,--start-group,-lxiltimer,-lxil,-lgcc,-lc,--end-group
+Finished building target: Hello_World.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size Hello_World.elf  |tee "Hello_World.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2512	    332	   3108	   5952	   1740	Hello_World.elf
+Finished building: Hello_World.elf.size
+ 
+
+15:35:23 Build Finished (took 324ms)
+

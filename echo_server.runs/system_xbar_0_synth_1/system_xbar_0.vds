@@ -1,0 +1,581 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed May 22 08:16:14 2024
+# Process ID: 560789
+# Current directory: /home/deulamco/Documents/echo_server/echo_server.runs/system_xbar_0_synth_1
+# Command line: vivado -log system_xbar_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_xbar_0.tcl
+# Log file: /home/deulamco/Documents/echo_server/echo_server.runs/system_xbar_0_synth_1/system_xbar_0.vds
+# Journal file: /home/deulamco/Documents/echo_server/echo_server.runs/system_xbar_0_synth_1/vivado.jou
+# Running On: deulamco-4060M, OS: Linux, CPU Frequency: 4790.341 MHz, CPU Physical cores: 16, Host memory: 32793 MB
+#-----------------------------------------------------------
+source system_xbar_0.tcl -notrace
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_xbar_0
+Command: synth_design -top system_xbar_0 -part xc7a35ticsg324-1L -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Device 21-403] Loading part xc7a35ticsg324-1L
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 561009
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2075.500 ; gain = 402.746 ; free physical = 3337 ; free virtual = 22531
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'system_xbar_0' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ip/system_xbar_0/synth/system_xbar_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_30_axi_crossbar' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:4871]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_30_crossbar' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:2232]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_30_si_transactor' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:3791]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_30_addr_decoder' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:790]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_1_comparator_static' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/10ab/hdl/generic_baseblocks_v2_1_vl_rfs.v:2119]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_1_carry_and' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/10ab/hdl/generic_baseblocks_v2_1_vl_rfs.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_1_carry_and' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/10ab/hdl/generic_baseblocks_v2_1_vl_rfs.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_1_comparator_static' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/10ab/hdl/generic_baseblocks_v2_1_vl_rfs.v:2119]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_1_comparator_static__parameterized0' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/10ab/hdl/generic_baseblocks_v2_1_vl_rfs.v:2119]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_1_comparator_static__parameterized0' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/10ab/hdl/generic_baseblocks_v2_1_vl_rfs.v:2119]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_1_comparator_static__parameterized1' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/10ab/hdl/generic_baseblocks_v2_1_vl_rfs.v:2119]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_1_comparator_static__parameterized1' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/10ab/hdl/generic_baseblocks_v2_1_vl_rfs.v:2119]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_1_comparator_static__parameterized2' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/10ab/hdl/generic_baseblocks_v2_1_vl_rfs.v:2119]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_1_comparator_static__parameterized2' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/10ab/hdl/generic_baseblocks_v2_1_vl_rfs.v:2119]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_1_comparator_static__parameterized3' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/10ab/hdl/generic_baseblocks_v2_1_vl_rfs.v:2119]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_1_comparator_static__parameterized3' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/10ab/hdl/generic_baseblocks_v2_1_vl_rfs.v:2119]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_30_addr_decoder' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:790]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_28_axic_srl_fifo' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/279e/hdl/axi_data_fifo_v2_1_vl_rfs.v:694]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_28_ndeep_srl' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/279e/hdl/axi_data_fifo_v2_1_vl_rfs.v:1129]
+INFO: [Synth 8-6157] synthesizing module 'SRLC32E' [/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:133887]
+INFO: [Synth 8-6155] done synthesizing module 'SRLC32E' (0#1) [/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:133887]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_28_ndeep_srl' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/279e/hdl/axi_data_fifo_v2_1_vl_rfs.v:1129]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_28_axic_srl_fifo' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/279e/hdl/axi_data_fifo_v2_1_vl_rfs.v:694]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_1_mux_enc' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/10ab/hdl/generic_baseblocks_v2_1_vl_rfs.v:2436]
+INFO: [Synth 8-6157] synthesizing module 'MUXF7' [/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:85238]
+INFO: [Synth 8-6155] done synthesizing module 'MUXF7' (0#1) [/home/deulamco/AMD/Vivado/2023.2/scripts/rt/data/unisim_comp.v:85238]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_1_mux_enc' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/10ab/hdl/generic_baseblocks_v2_1_vl_rfs.v:2436]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_30_si_transactor' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:3791]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_30_si_transactor__parameterized0' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:3791]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_1_mux_enc__parameterized0' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/10ab/hdl/generic_baseblocks_v2_1_vl_rfs.v:2436]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_1_mux_enc__parameterized0' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/10ab/hdl/generic_baseblocks_v2_1_vl_rfs.v:2436]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_30_si_transactor__parameterized0' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:3791]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_30_splitter' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:4451]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_30_splitter' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:4451]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_30_wdata_router' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:4724]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_28_axic_reg_srl_fifo' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/279e/hdl/axi_data_fifo_v2_1_vl_rfs.v:884]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/279e/hdl/axi_data_fifo_v2_1_vl_rfs.v:982]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_28_axic_reg_srl_fifo' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/279e/hdl/axi_data_fifo_v2_1_vl_rfs.v:884]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_30_wdata_router' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:4724]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_30_si_transactor__parameterized1' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:3791]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_28_axic_srl_fifo__parameterized0' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/279e/hdl/axi_data_fifo_v2_1_vl_rfs.v:694]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_28_axic_srl_fifo__parameterized0' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/279e/hdl/axi_data_fifo_v2_1_vl_rfs.v:694]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_30_si_transactor__parameterized1' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:3791]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_30_si_transactor__parameterized2' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:3791]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_28_axic_srl_fifo__parameterized1' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/279e/hdl/axi_data_fifo_v2_1_vl_rfs.v:694]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_28_ndeep_srl__parameterized0' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/279e/hdl/axi_data_fifo_v2_1_vl_rfs.v:1129]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_1_nto1_mux' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/10ab/hdl/generic_baseblocks_v2_1_vl_rfs.v:2872]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_1_nto1_mux' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/10ab/hdl/generic_baseblocks_v2_1_vl_rfs.v:2872]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_28_ndeep_srl__parameterized0' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/279e/hdl/axi_data_fifo_v2_1_vl_rfs.v:1129]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_28_axic_srl_fifo__parameterized1' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/279e/hdl/axi_data_fifo_v2_1_vl_rfs.v:694]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_30_si_transactor__parameterized2' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:3791]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_30_wdata_router__parameterized0' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:4724]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_28_axic_reg_srl_fifo__parameterized0' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/279e/hdl/axi_data_fifo_v2_1_vl_rfs.v:884]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_28_ndeep_srl__parameterized1' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/279e/hdl/axi_data_fifo_v2_1_vl_rfs.v:1129]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_28_ndeep_srl__parameterized1' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/279e/hdl/axi_data_fifo_v2_1_vl_rfs.v:1129]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/279e/hdl/axi_data_fifo_v2_1_vl_rfs.v:982]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_28_axic_reg_srl_fifo__parameterized0' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/279e/hdl/axi_data_fifo_v2_1_vl_rfs.v:884]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_30_wdata_router__parameterized0' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:4724]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_30_si_transactor__parameterized3' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:3791]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_30_si_transactor__parameterized3' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:3791]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_30_addr_decoder__parameterized0' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:790]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_30_addr_decoder__parameterized0' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:790]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_30_addr_decoder__parameterized1' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:790]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_30_addr_decoder__parameterized1' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:790]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_28_axic_srl_fifo__parameterized2' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/279e/hdl/axi_data_fifo_v2_1_vl_rfs.v:694]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_28_axic_srl_fifo__parameterized2' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/279e/hdl/axi_data_fifo_v2_1_vl_rfs.v:694]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_30_wdata_mux' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:4550]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_28_axic_reg_srl_fifo__parameterized1' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/279e/hdl/axi_data_fifo_v2_1_vl_rfs.v:884]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/279e/hdl/axi_data_fifo_v2_1_vl_rfs.v:982]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_28_axic_reg_srl_fifo__parameterized1' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/279e/hdl/axi_data_fifo_v2_1_vl_rfs.v:884]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_1_mux_enc__parameterized1' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/10ab/hdl/generic_baseblocks_v2_1_vl_rfs.v:2436]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_1_mux_enc__parameterized1' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/10ab/hdl/generic_baseblocks_v2_1_vl_rfs.v:2436]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_30_wdata_mux' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:4550]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_29_axi_register_slice' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ff9f/hdl/axi_register_slice_v2_1_vl_rfs.v:3718]
+INFO: [Synth 8-6157] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:59]
+INFO: [Synth 8-6155] done synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:59]
+INFO: [Synth 8-6157] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:473]
+INFO: [Synth 8-6155] done synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:473]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_29_axic_register_slice' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ff9f/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_29_axic_register_slice' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ff9f/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_29_axic_register_slice__parameterized0' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ff9f/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_29_axic_register_slice__parameterized0' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ff9f/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_29_axic_register_slice__parameterized1' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ff9f/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_29_axic_register_slice__parameterized1' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ff9f/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_29_axic_register_slice__parameterized2' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ff9f/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_29_axic_register_slice__parameterized2' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ff9f/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_29_axi_register_slice' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/ff9f/hdl/axi_register_slice_v2_1_vl_rfs.v:3718]
+WARNING: [Synth 8-7071] port 'aclk2x' of module 'axi_register_slice_v2_1_29_axi_register_slice' is unconnected for instance 'reg_slice_mi' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:3116]
+WARNING: [Synth 8-7023] instance 'reg_slice_mi' of module 'axi_register_slice_v2_1_29_axi_register_slice' has 93 connections declared, but only 92 given [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:3116]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_28_axic_srl_fifo__parameterized3' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/279e/hdl/axi_data_fifo_v2_1_vl_rfs.v:694]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_28_ndeep_srl__parameterized2' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/279e/hdl/axi_data_fifo_v2_1_vl_rfs.v:1129]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_28_ndeep_srl__parameterized2' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/279e/hdl/axi_data_fifo_v2_1_vl_rfs.v:1129]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_28_axic_srl_fifo__parameterized3' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/279e/hdl/axi_data_fifo_v2_1_vl_rfs.v:694]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_30_wdata_mux__parameterized0' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:4550]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_28_axic_reg_srl_fifo__parameterized2' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/279e/hdl/axi_data_fifo_v2_1_vl_rfs.v:884]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/279e/hdl/axi_data_fifo_v2_1_vl_rfs.v:982]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_28_axic_reg_srl_fifo__parameterized2' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/279e/hdl/axi_data_fifo_v2_1_vl_rfs.v:884]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_30_wdata_mux__parameterized0' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:4550]
+WARNING: [Synth 8-7071] port 'aclk2x' of module 'axi_register_slice_v2_1_29_axi_register_slice' is unconnected for instance 'reg_slice_mi' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:3116]
+WARNING: [Synth 8-7023] instance 'reg_slice_mi' of module 'axi_register_slice_v2_1_29_axi_register_slice' has 93 connections declared, but only 92 given [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:3116]
+WARNING: [Synth 8-7071] port 'aclk2x' of module 'axi_register_slice_v2_1_29_axi_register_slice' is unconnected for instance 'reg_slice_mi' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:3116]
+WARNING: [Synth 8-7023] instance 'reg_slice_mi' of module 'axi_register_slice_v2_1_29_axi_register_slice' has 93 connections declared, but only 92 given [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:3116]
+WARNING: [Synth 8-7071] port 'aclk2x' of module 'axi_register_slice_v2_1_29_axi_register_slice' is unconnected for instance 'reg_slice_mi' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:3116]
+WARNING: [Synth 8-7023] instance 'reg_slice_mi' of module 'axi_register_slice_v2_1_29_axi_register_slice' has 93 connections declared, but only 92 given [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:3116]
+WARNING: [Synth 8-7071] port 'aclk2x' of module 'axi_register_slice_v2_1_29_axi_register_slice' is unconnected for instance 'reg_slice_mi' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:3116]
+WARNING: [Synth 8-7023] instance 'reg_slice_mi' of module 'axi_register_slice_v2_1_29_axi_register_slice' has 93 connections declared, but only 92 given [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:3116]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_28_axic_srl_fifo__parameterized4' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/279e/hdl/axi_data_fifo_v2_1_vl_rfs.v:694]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_28_axic_srl_fifo__parameterized4' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/279e/hdl/axi_data_fifo_v2_1_vl_rfs.v:694]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_30_wdata_mux__parameterized1' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:4550]
+INFO: [Synth 8-6157] synthesizing module 'axi_data_fifo_v2_1_28_axic_reg_srl_fifo__parameterized3' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/279e/hdl/axi_data_fifo_v2_1_vl_rfs.v:884]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/279e/hdl/axi_data_fifo_v2_1_vl_rfs.v:982]
+INFO: [Synth 8-6155] done synthesizing module 'axi_data_fifo_v2_1_28_axic_reg_srl_fifo__parameterized3' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/279e/hdl/axi_data_fifo_v2_1_vl_rfs.v:884]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_30_wdata_mux__parameterized1' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:4550]
+WARNING: [Synth 8-7071] port 'aclk2x' of module 'axi_register_slice_v2_1_29_axi_register_slice' is unconnected for instance 'reg_slice_mi' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:3116]
+WARNING: [Synth 8-7023] instance 'reg_slice_mi' of module 'axi_register_slice_v2_1_29_axi_register_slice' has 93 connections declared, but only 92 given [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:3116]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_30_decerr_slave' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:3493]
+INFO: [Synth 8-155] case statement is not full and has no default [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:3626]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_30_decerr_slave' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:3493]
+INFO: [Synth 8-6157] synthesizing module 'axi_crossbar_v2_1_30_addr_arbiter' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:420]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_1_mux_enc__parameterized2' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/10ab/hdl/generic_baseblocks_v2_1_vl_rfs.v:2436]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_1_mux_enc__parameterized2' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/10ab/hdl/generic_baseblocks_v2_1_vl_rfs.v:2436]
+INFO: [Synth 8-6157] synthesizing module 'generic_baseblocks_v2_1_1_mux_enc__parameterized3' [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/10ab/hdl/generic_baseblocks_v2_1_vl_rfs.v:2436]
+INFO: [Synth 8-6155] done synthesizing module 'generic_baseblocks_v2_1_1_mux_enc__parameterized3' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/10ab/hdl/generic_baseblocks_v2_1_vl_rfs.v:2436]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_30_addr_arbiter' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:420]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_30_crossbar' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:2232]
+INFO: [Synth 8-6155] done synthesizing module 'axi_crossbar_v2_1_30_axi_crossbar' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:4871]
+INFO: [Synth 8-6155] done synthesizing module 'system_xbar_0' (0#1) [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ip/system_xbar_0/synth/system_xbar_0.v:53]
+WARNING: [Synth 8-6014] Unused sequential element areset_d1_reg was removed.  [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/279e/hdl/axi_data_fifo_v2_1_vl_rfs.v:747]
+WARNING: [Synth 8-6014] Unused sequential element S_READY_i_reg was removed.  [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/279e/hdl/axi_data_fifo_v2_1_vl_rfs.v:786]
+WARNING: [Synth 8-6014] Unused sequential element gen_single_issue.gen_debug_r_single_issue.debug_r_beat_cnt_i_reg was removed.  [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:4078]
+WARNING: [Synth 8-6014] Unused sequential element gen_single_issue.gen_debug_r_single_issue.debug_r_beat_cnt_i_reg was removed.  [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:4078]
+WARNING: [Synth 8-6014] Unused sequential element areset_d1_reg was removed.  [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/279e/hdl/axi_data_fifo_v2_1_vl_rfs.v:747]
+WARNING: [Synth 8-6014] Unused sequential element S_READY_i_reg was removed.  [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/279e/hdl/axi_data_fifo_v2_1_vl_rfs.v:786]
+WARNING: [Synth 8-6014] Unused sequential element gen_single_thread.gen_debug_r_single_thread.debug_r_beat_cnt_i_reg was removed.  [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:4184]
+WARNING: [Synth 8-6014] Unused sequential element gen_single_thread.active_id_reg was removed.  [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:4142]
+WARNING: [Synth 8-6014] Unused sequential element areset_d1_reg was removed.  [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/279e/hdl/axi_data_fifo_v2_1_vl_rfs.v:747]
+WARNING: [Synth 8-6014] Unused sequential element S_READY_i_reg was removed.  [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/279e/hdl/axi_data_fifo_v2_1_vl_rfs.v:786]
+WARNING: [Synth 8-6014] Unused sequential element gen_single_thread.gen_debug_r_single_thread.debug_r_beat_cnt_i_reg was removed.  [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:4184]
+WARNING: [Synth 8-6014] Unused sequential element gen_single_thread.active_id_reg was removed.  [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:4142]
+WARNING: [Synth 8-6014] Unused sequential element gen_single_thread.gen_debug_r_single_thread.debug_r_beat_cnt_i_reg was removed.  [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:4184]
+WARNING: [Synth 8-6014] Unused sequential element gen_single_thread.active_id_reg was removed.  [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:4142]
+WARNING: [Synth 8-6014] Unused sequential element areset_d1_reg was removed.  [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/279e/hdl/axi_data_fifo_v2_1_vl_rfs.v:747]
+WARNING: [Synth 8-6014] Unused sequential element S_READY_i_reg was removed.  [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/279e/hdl/axi_data_fifo_v2_1_vl_rfs.v:786]
+WARNING: [Synth 8-6014] Unused sequential element s_ready_i_reg was removed.  [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/279e/hdl/axi_data_fifo_v2_1_vl_rfs.v:1034]
+WARNING: [Synth 8-6014] Unused sequential element areset_d1_reg was removed.  [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/279e/hdl/axi_data_fifo_v2_1_vl_rfs.v:747]
+WARNING: [Synth 8-6014] Unused sequential element S_READY_i_reg was removed.  [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/279e/hdl/axi_data_fifo_v2_1_vl_rfs.v:786]
+WARNING: [Synth 8-6014] Unused sequential element s_ready_i_reg was removed.  [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/279e/hdl/axi_data_fifo_v2_1_vl_rfs.v:1034]
+WARNING: [Synth 8-6014] Unused sequential element areset_d1_reg was removed.  [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/279e/hdl/axi_data_fifo_v2_1_vl_rfs.v:747]
+WARNING: [Synth 8-6014] Unused sequential element S_READY_i_reg was removed.  [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/279e/hdl/axi_data_fifo_v2_1_vl_rfs.v:786]
+WARNING: [Synth 8-6014] Unused sequential element s_ready_i_reg was removed.  [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/279e/hdl/axi_data_fifo_v2_1_vl_rfs.v:1034]
+WARNING: [Synth 8-6014] Unused sequential element gen_master_slots[0].gen_mi_write.gen_debug_w.debug_w_beat_cnt_i_reg was removed.  [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:2991]
+WARNING: [Synth 8-6014] Unused sequential element gen_master_slots[1].gen_mi_write.gen_debug_w.debug_w_beat_cnt_i_reg was removed.  [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:2991]
+WARNING: [Synth 8-6014] Unused sequential element gen_master_slots[2].gen_mi_write.gen_debug_w.debug_w_beat_cnt_i_reg was removed.  [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:2991]
+WARNING: [Synth 8-6014] Unused sequential element gen_master_slots[3].gen_mi_write.gen_debug_w.debug_w_beat_cnt_i_reg was removed.  [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:2991]
+WARNING: [Synth 8-6014] Unused sequential element gen_master_slots[4].gen_mi_write.gen_debug_w.debug_w_beat_cnt_i_reg was removed.  [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:2991]
+WARNING: [Synth 8-6014] Unused sequential element gen_master_slots[5].gen_mi_write.gen_debug_w.debug_w_beat_cnt_i_reg was removed.  [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ipshared/fb47/hdl/axi_crossbar_v2_1_vl_rfs.v:2991]
+WARNING: [Synth 8-7129] Port ACLK in module axi_register_slice_v2_1_29_axic_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ARESET in module axi_register_slice_v2_1_29_axic_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ACLK in module axi_register_slice_v2_1_29_axic_register_slice__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ARESET in module axi_register_slice_v2_1_29_axic_register_slice__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_buser[0] in module axi_infrastructure_v1_1_0_vector2axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axi_ruser[0] in module axi_infrastructure_v1_1_0_vector2axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awuser[0] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wid[1] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wid[0] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wuser[0] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_aruser[0] in module axi_infrastructure_v1_1_0_axi2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclk2x in module axi_register_slice_v2_1_29_axi_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[1] in module axi_crossbar_v2_1_30_addr_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDR[0] in module axi_crossbar_v2_1_30_addr_decoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ABURST[1] in module axi_crossbar_v2_1_30_si_transactor__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ABURST[0] in module axi_crossbar_v2_1_30_si_transactor__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SEL_ONEHOT[1] in module generic_baseblocks_v2_1_1_nto1_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SEL_ONEHOT[0] in module generic_baseblocks_v2_1_1_nto1_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ABURST[1] in module axi_crossbar_v2_1_30_si_transactor__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ABURST[0] in module axi_crossbar_v2_1_30_si_transactor__parameterized2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ABURST[1] in module axi_crossbar_v2_1_30_si_transactor__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ABURST[0] in module axi_crossbar_v2_1_30_si_transactor__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ABURST[1] in module axi_crossbar_v2_1_30_si_transactor__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ABURST[0] in module axi_crossbar_v2_1_30_si_transactor__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ABURST[1] in module axi_crossbar_v2_1_30_si_transactor is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ABURST[0] in module axi_crossbar_v2_1_30_si_transactor is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWID[5] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWID[4] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWID[3] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWID[2] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWID[1] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWID[0] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[95] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[94] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[93] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[92] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[91] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[90] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[89] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[88] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[87] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[86] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[85] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[84] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[83] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[82] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[81] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[80] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[79] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[78] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[77] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[76] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[75] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[74] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[73] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[72] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[71] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[70] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[69] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[68] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[67] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[66] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[65] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWADDR[64] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWLEN[23] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWLEN[22] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWLEN[21] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWLEN[20] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWLEN[19] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWLEN[18] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWLEN[17] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWLEN[16] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWSIZE[8] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWSIZE[7] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWSIZE[6] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWBURST[5] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWBURST[4] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWLOCK[5] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWLOCK[4] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWCACHE[11] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWCACHE[10] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWCACHE[9] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWCACHE[8] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[8] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[7] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[6] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWQOS[11] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWQOS[10] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWQOS[9] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWQOS[8] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWUSER[2] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWVALID[2] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WID[5] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WID[4] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WID[3] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WID[2] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WID[1] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WID[0] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[383] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WDATA[382] in module axi_crossbar_v2_1_30_crossbar is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2291.469 ; gain = 618.715 ; free physical = 3139 ; free virtual = 22340
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2291.469 ; gain = 618.715 ; free physical = 3139 ; free virtual = 22341
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2291.469 ; gain = 618.715 ; free physical = 3139 ; free virtual = 22341
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.1 ; elapsed = 00:00:00.1 . Memory (MB): peak = 2291.469 ; gain = 0.000 ; free physical = 3130 ; free virtual = 22331
+INFO: [Netlist 29-17] Analyzing 414 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ip/system_xbar_0/system_xbar_0_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/deulamco/Documents/echo_server/echo_server.gen/sources_1/bd/system/ip/system_xbar_0/system_xbar_0_ooc.xdc] for cell 'inst'
+Parsing XDC File [/home/deulamco/Documents/echo_server/echo_server.runs/system_xbar_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/deulamco/Documents/echo_server/echo_server.runs/system_xbar_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2364.406 ; gain = 0.000 ; free physical = 3190 ; free virtual = 22394
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.14 ; elapsed = 00:00:00.08 . Memory (MB): peak = 2364.441 ; gain = 0.000 ; free physical = 3161 ; free virtual = 22365
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2364.441 ; gain = 691.688 ; free physical = 1634 ; free virtual = 20840
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35ticsg324-1L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2364.441 ; gain = 691.688 ; free physical = 1634 ; free virtual = 20841
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  /home/deulamco/Documents/echo_server/echo_server.runs/system_xbar_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2364.441 ; gain = 691.688 ; free physical = 1637 ; free virtual = 20843
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'axi_data_fifo_v2_1_28_axic_reg_srl_fifo'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'axi_data_fifo_v2_1_28_axic_reg_srl_fifo__parameterized0'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'axi_data_fifo_v2_1_28_axic_reg_srl_fifo__parameterized1'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'axi_data_fifo_v2_1_28_axic_reg_srl_fifo__parameterized2'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'axi_data_fifo_v2_1_28_axic_reg_srl_fifo__parameterized3'
+INFO: [Synth 8-802] inferred FSM for state register 'gen_axi.write_cs_reg' in module 'axi_crossbar_v2_1_30_decerr_slave'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    ZERO |                             1000 |                               10
+                     ONE |                             0010 |                               11
+                     TWO |                             0001 |                               01
+                  iSTATE |                             0100 |                               00
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'axi_data_fifo_v2_1_28_axic_reg_srl_fifo'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    ZERO |                             1000 |                               10
+                     ONE |                             0010 |                               11
+                     TWO |                             0001 |                               01
+                  iSTATE |                             0100 |                               00
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'axi_data_fifo_v2_1_28_axic_reg_srl_fifo__parameterized0'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    ZERO |                             1000 |                               10
+                     ONE |                             0010 |                               11
+                     TWO |                             0001 |                               01
+                  iSTATE |                             0100 |                               00
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'axi_data_fifo_v2_1_28_axic_reg_srl_fifo__parameterized1'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    ZERO |                             1000 |                               10
+                     ONE |                             0010 |                               11
+                     TWO |                             0001 |                               01
+                  iSTATE |                             0100 |                               00
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'axi_data_fifo_v2_1_28_axic_reg_srl_fifo__parameterized2'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    ZERO |                             1000 |                               10
+                     ONE |                             0010 |                               11
+                     TWO |                             0001 |                               01
+                  iSTATE |                             0100 |                               00
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'axi_data_fifo_v2_1_28_axic_reg_srl_fifo__parameterized3'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+            P_WRITE_IDLE |                              001 |                               00
+            P_WRITE_DATA |                              010 |                               01
+            P_WRITE_RESP |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'gen_axi.write_cs_reg' using encoding 'one-hot' in module 'axi_crossbar_v2_1_30_decerr_slave'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 2364.441 ; gain = 691.688 ; free physical = 1552 ; free virtual = 20761
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    8 Bit       Adders := 3     
+	   2 Input    6 Bit       Adders := 6     
+	   2 Input    5 Bit       Adders := 9     
+	   2 Input    4 Bit       Adders := 2     
+	   2 Input    3 Bit       Adders := 3     
+	   2 Input    2 Bit       Adders := 19    
+	   2 Input    1 Bit       Adders := 4     
++---XORs : 
+	   2 Input      1 Bit         XORs := 19    
++---Registers : 
+	              133 Bit    Registers := 12    
+	               65 Bit    Registers := 2     
+	                8 Bit    Registers := 3     
+	                6 Bit    Registers := 9     
+	                5 Bit    Registers := 9     
+	                4 Bit    Registers := 11    
+	                3 Bit    Registers := 15    
+	                2 Bit    Registers := 34    
+	                1 Bit    Registers := 66    
++---Muxes : 
+	   2 Input  134 Bit        Muxes := 3     
+	   2 Input  133 Bit        Muxes := 12    
+	   2 Input   48 Bit        Muxes := 12    
+	   2 Input    8 Bit        Muxes := 1     
+	   2 Input    6 Bit        Muxes := 11    
+	   2 Input    5 Bit        Muxes := 5     
+	   2 Input    4 Bit        Muxes := 30    
+	   3 Input    4 Bit        Muxes := 8     
+	   2 Input    3 Bit        Muxes := 18    
+	   2 Input    2 Bit        Muxes := 41    
+	   2 Input    1 Bit        Muxes := 157   
+	   4 Input    1 Bit        Muxes := 24    
+	   3 Input    1 Bit        Muxes := 9     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+INFO: [Synth 8-3332] Sequential element (wrouter_aw_fifo/FSM_onehot_state_reg[2]) is unused and will be removed from module axi_crossbar_v2_1_30_wdata_router.
+INFO: [Synth 8-3332] Sequential element (wrouter_aw_fifo/FSM_onehot_state_reg[2]) is unused and will be removed from module axi_crossbar_v2_1_30_wdata_router__parameterized0.
+INFO: [Synth 8-3332] Sequential element (FSM_onehot_state_reg[2]) is unused and will be removed from module axi_data_fifo_v2_1_28_axic_reg_srl_fifo__parameterized1__1.
+INFO: [Synth 8-3332] Sequential element (FSM_onehot_state_reg[2]) is unused and will be removed from module axi_data_fifo_v2_1_28_axic_reg_srl_fifo__parameterized2.
+INFO: [Synth 8-3332] Sequential element (FSM_onehot_state_reg[2]) is unused and will be removed from module axi_data_fifo_v2_1_28_axic_reg_srl_fifo__parameterized1__2.
+INFO: [Synth 8-3332] Sequential element (FSM_onehot_state_reg[2]) is unused and will be removed from module axi_data_fifo_v2_1_28_axic_reg_srl_fifo__parameterized1__3.
+INFO: [Synth 8-3332] Sequential element (FSM_onehot_state_reg[2]) is unused and will be removed from module axi_data_fifo_v2_1_28_axic_reg_srl_fifo__parameterized1.
+INFO: [Synth 8-3332] Sequential element (FSM_onehot_state_reg[2]) is unused and will be removed from module axi_data_fifo_v2_1_28_axic_reg_srl_fifo__parameterized3.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2364.441 ; gain = 691.688 ; free physical = 3891 ; free virtual = 23106
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 2364.441 ; gain = 691.688 ; free physical = 4876 ; free virtual = 24096
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 2364.441 ; gain = 691.688 ; free physical = 3977 ; free virtual = 23199
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 2364.441 ; gain = 691.688 ; free physical = 3440 ; free virtual = 22657
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 2364.441 ; gain = 691.688 ; free physical = 2783 ; free virtual = 22002
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 2364.441 ; gain = 691.688 ; free physical = 2783 ; free virtual = 22002
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 2364.441 ; gain = 691.688 ; free physical = 2689 ; free virtual = 21908
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 2364.441 ; gain = 691.688 ; free physical = 2679 ; free virtual = 21898
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 2364.441 ; gain = 691.688 ; free physical = 2636 ; free virtual = 21855
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 2364.441 ; gain = 691.688 ; free physical = 2628 ; free virtual = 21847
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |LUT1    |    19|
+|2     |LUT2    |   231|
+|3     |LUT3    |  1013|
+|4     |LUT4    |   143|
+|5     |LUT5    |   904|
+|6     |LUT6    |   620|
+|7     |MUXF7   |   399|
+|8     |SRLC32E |    20|
+|9     |FDRE    |  1706|
+|10    |FDSE    |    46|
++------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 2364.441 ; gain = 691.688 ; free physical = 2628 ; free virtual = 21847
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 487 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 2364.441 ; gain = 618.715 ; free physical = 2596 ; free virtual = 21816
+Synthesis Optimization Complete : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 2364.441 ; gain = 691.688 ; free physical = 2588 ; free virtual = 21808
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.05 . Memory (MB): peak = 2364.441 ; gain = 0.000 ; free physical = 2581 ; free virtual = 21801
+INFO: [Netlist 29-17] Analyzing 399 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2380.414 ; gain = 0.000 ; free physical = 2331 ; free virtual = 21551
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: ff05aaf4
+INFO: [Common 17-83] Releasing license: Synthesis
+155 Infos, 142 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 2380.449 ; gain = 1037.703 ; free physical = 2285 ; free virtual = 21505
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1777.701; main = 1469.491; forked = 309.272
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3338.848; main = 2380.418; forked = 990.445
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2404.426 ; gain = 0.000 ; free physical = 2258 ; free virtual = 21479
+INFO: [Common 17-1381] The checkpoint '/home/deulamco/Documents/echo_server/echo_server.runs/system_xbar_0_synth_1/system_xbar_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP system_xbar_0, cache-ID = 0a975c5213a5fd4e
+INFO: [Coretcl 2-1174] Renamed 72 cell refs.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2404.426 ; gain = 0.000 ; free physical = 2197 ; free virtual = 21428
+INFO: [Common 17-1381] The checkpoint '/home/deulamco/Documents/echo_server/echo_server.runs/system_xbar_0_synth_1/system_xbar_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file system_xbar_0_utilization_synth.rpt -pb system_xbar_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed May 22 08:16:52 2024...
